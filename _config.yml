@@ -1,15 +1,20 @@
 # General
-name: App Name
-tagline: A great app to do something
+name: KartBalance
+tagline: Balancing your kart for you
+# favicon
+favicon: /favicon.png
 
 # Jekyll
 exclude: ['Rakefile']
-markdown: redcarpet
+markdown: kramdown
 
 # App Store
-appstore_url: https://itunes.apple.com/app/id123456789
-appstore: <a href="https://itunes.apple.com/app/id123456789" class="app-store" rel="external nofollow"><img src="/assets/app-store.svg" alt="Download on the App Store"></a>
-appstore_white: <a href="https://itunes.apple.com/app/id123456789" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
+appstore_url: http://itunes.com/apps/kartbalance
+appstore: <a href="http://itunes.com/apps/kartbalance" class="app-store" rel="external nofollow"><img src="/assets/app-store-black.svg" alt="Download on the App Store"></a>
+appstore_white: <a href="http://itunes.com/apps/kartbalance" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
+
+# YouTube
+youtube_video: <iframe width="90%" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
 
 # Screenshots
 screenshots:
@@ -17,10 +22,10 @@ screenshots:
 - screenshot02
 
 # Company Info
-company: Company Name
-company_website: http://companyname.com
+company: jalter
+company_website: http://kartbalance.com
 
 # Emails
-email_press: press@appname.com
-email_contact: contact@appname.com
-email_support: support@appname.com
+email_press: kartbalanceapp@gmail.com
+email_contact: kartbalanceapp@gmail.com
+email_support: kartbalanceapp@gmail.com

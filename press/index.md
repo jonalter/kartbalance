@@ -1,6 +1,6 @@
 ---
 layout: default
-title: App Name - Press
+title: KartBalance - Press
 ---
 ### Press
 
@@ -10,6 +10,6 @@ Want to review {{ site.name }} and need a promo code? Just ask! [Send us an emai
 
 #### Press Kit
 
-The {{ site.name }} press kit includes the app icon, iPhone screenshots, iPad screenshots, and {{ site.company }} logo.
+The {{ site.name }} press kit includes the app icon and iPhone screenshots.
 
-**[Download Press Kit](https://s3.amazonaws.com/appname.com/press_kit.zip)**
+**[Download Press Kit](https://dl.dropboxusercontent.com/u/7540194/kartbalance-press-kit.zip)**
