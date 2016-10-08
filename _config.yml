@@ -1,7 +1,7 @@
 # General
 name: KartBalance
 tagline: Balancing your kart for you
-baseurl: /kartbalance
+baseurl: ""
 url: "http://jonalter.github.io" # the base hostname & protocol for your site
 # favicon
 favicon: /favicon.png
@@ -12,8 +12,8 @@ markdown: kramdown
 
 # App Store
 appstore_url: http://itunes.com/apps/kartbalance
-appstore: <a href="http://itunes.com/apps/kartbalance" class="app-store" rel="external nofollow"><img src="/kartbalance/assets/app-store-black.svg" alt="Download on the App Store"></a>
-appstore_white: <a href="http://itunes.com/apps/kartbalance" class="app-store" rel="external nofollow"><img src="/kartbalance/assets/app-store-white.svg" alt="Download on the App Store"></a>
+appstore: <a href="http://itunes.com/apps/kartbalance" class="app-store" rel="external nofollow"><img src="/assets/app-store-black.svg" alt="Download on the App Store"></a>
+appstore_white: <a href="http://itunes.com/apps/kartbalance" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
 
 # Screenshots
 screenshots:
