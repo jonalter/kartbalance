@@ -1,6 +1,6 @@
 # General
 name: KartBalance
-tagline: Balancing your kart for you
+tagline: Balance your kart
 baseurl: ""
 url: "http://jonalter.github.io" # the base hostname & protocol for your site
 # favicon
