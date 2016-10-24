@@ -15,6 +15,9 @@ appstore_url: http://itunes.com/apps/kartbalance
 appstore: <a href="http://itunes.com/apps/kartbalance" class="app-store" rel="external nofollow"><img src="/assets/app-store-black.svg" alt="Download on the App Store"></a>
 appstore_white: <a href="http://itunes.com/apps/kartbalance" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
 
+# Google services
+google_analytics: UA-83573292-3
+
 # Screenshots
 screenshots:
 - screenshot01

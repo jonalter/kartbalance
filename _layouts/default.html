@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="{{ "/assets/application.css" | prepend: site.baseurl }}">
   <link href="{{ site.favicon | prepend: site.baseurl }}" rel="icon">
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>
 <body>
   <header>
