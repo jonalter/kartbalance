@@ -4,7 +4,7 @@ title: KartBalance - Support
 ---
 ### Support
 
-[![How to video](http://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](http://www.youtube.com/watch?v=dQw4w9WgXcQ "How to video")
+[<img src="http://img.youtube.com/vi/bjoY0g_og5s/0.jpg" style="height: auto; max-width: 100%">](http://www.youtube.com/watch?v=bjoY0g_og5s "How to video")
 
 #### When to use the app
 This app can help you predict where weights should be mounted to your racing kart in order to get a desired weight distribution.
