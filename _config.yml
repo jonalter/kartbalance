@@ -1,8 +1,17 @@
+plugins:
+  - jekyll-seo-tag
+
 # General
 name: KartBalance
 tagline: Balance your kart
 baseurl: ""
 url: "http://jonalter.github.io" # the base hostname & protocol for your site
+
+# SEO
+# kart,karting,balance,weight,distribution,scaling,calculator,center,gravity,ratio,scale,chassis,race
+title: Kart Balance and Weight Distribution Calculator App
+description: An easy to use chassis balance and weight distribution calculator for scaling and adding weights to a kart
+
 # favicon
 favicon: /favicon.png
 
