@@ -16,7 +16,7 @@ description: An easy to use chassis balance and weight distribution calculator f
 favicon: /favicon.png
 
 # Jekyll
-exclude: ['Rakefile']
+exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'vendor', 'vendor/**/*', 'vendor/bundle', 'vendor/bundle/**/*']
 markdown: kramdown
 
 # App Store

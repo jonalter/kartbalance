@@ -30,8 +30,8 @@ end
 
 desc "common rsync used in build and serve tasks"
 task :rsync do
-  FileUtils.mkdir('_site')
-  FileUtils.mkdir('assets')
+  FileUtils.mkdir_p('_site')
+  FileUtils.mkdir_p('assets')
   `rsync _assets/images/* assets`
   `rsync _assets/javascripts/* assets`
   `rsync _vendor/assets/javascripts/* assets`
