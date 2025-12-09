@@ -4,7 +4,36 @@ The Jekyll App Site is a small Jekyll template to present an iPhone app with a s
 
 ## Running Locally
 
-Make sure you have all the [requirements](#requirements) installed.
+### Option 1: Docker (Recommended)
+
+The easiest way to run the site locally is using Docker. No Ruby installation required!
+
+**Prerequisites:**
+* [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+**Start the development server:**
+```bash
+docker-compose up -d
+```
+
+**View logs:**
+```bash
+docker-compose logs -f
+```
+
+**Stop the server:**
+```bash
+docker-compose down
+```
+
+**Access your site:**
+Open your browser to `http://localhost:4000/`
+
+The site includes live reload, so any changes you make will automatically refresh in your browser.
+
+### Option 2: Traditional Setup
+
+Make sure you have all the [requirements](#traditional-requirements) installed.
 
 There are 4 rake tasks:
 
@@ -15,7 +44,7 @@ There are 4 rake tasks:
 
 To deploy, upload the `_site` directory to your static HTML server (i.e. [AWS S3](http://aws.amazon.com/s3)).
 
-## Requirements
+## Traditional Requirements
 
 * [Jekyll](http://jekyllrb.com): `gem install jekyll`
 * [Sass](http://sass-lang.com): `gem install sass`
