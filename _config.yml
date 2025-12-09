@@ -10,7 +10,7 @@ url: "http://jonalter.github.io" # the base hostname & protocol for your site
 # SEO
 # kart,karting,balance,weight,distribution,scaling,calculator,center,gravity,ratio,scale,chassis,race
 title: Kart Balance and Weight Distribution Calculator App
-description: An easy to use chassis balance and weight distribution calculator for scaling and adding weights to a kart
+description: Professional kart weight distribution calculator app for iOS. Calculate corner weights, chassis balance, and center of gravity for optimal racing kart setup. Free download.
 
 # favicon
 favicon: /favicon.png
@@ -20,7 +20,7 @@ exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'vendor', 'vendor/**/*', 'vendo
 markdown: kramdown
 
 # App Store
-appstore_url: http://itunes.com/apps/kartbalance
+appstore_url: https://itunes.com/apps/kartbalance
 appstore: <a href="https://itunes.apple.com/us/app/kartbalance/id1151974965?ls=1&mt=8" class="app-store" rel="external nofollow"><img src="/assets/app-store-black.svg" alt="Download on the App Store"></a>
 appstore_white: <a href="https://itunes.apple.com/us/app/kartbalance/id1151974965?ls=1&mt=8" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
 
@@ -34,6 +34,5 @@ company: Jon Alter
 company_website: http://kartbalance.com
 
 # Emails
-email_press: kartbalanceapp@gmail.com
 email_contact: kartbalanceapp@gmail.com
 email_support: kartbalanceapp@gmail.com

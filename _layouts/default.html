@@ -11,12 +11,14 @@
   {% include analytics.html %}
   {% endif %}
   {% seo %}
+  {% include social-meta.html %}
+  {% include structured-data.html %}
 </head>
 <body>
   <header>
     <div class="grater grater-container">
       <div>
-        <a class="icon" href="{{ site.appstore_url }}" rel="external nofollow"><img src="{{ "/assets/icon-rounded-280.png" | prepend: site.baseurl }}"></a>
+        <a class="icon" href="{{ site.appstore_url }}" rel="external nofollow"><img src="{{ "/assets/icon-rounded-280.png" | prepend: site.baseurl }}" alt="KartBalance - Kart weight distribution calculator app icon"></a>
       </div>
       <div>
         <h1><a href="{{ site.baseurl }}/" rel="home">{{ site.name }}</a></h1>
@@ -36,7 +38,6 @@
       <ul>
         <li><a href="{{ site.baseurl }}/support">Support</a></li>
         <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-        <li><a href="{{ site.baseurl }}/press">Press</a></li>
         <li><a href="{{ site.baseurl }}/privacy">Privacy</a></li>
       </ul>
     </div>

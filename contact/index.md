@@ -1,6 +1,7 @@
 ---
 layout: default
 title: KartBalance - Contact
+description: Contact KartBalance support team for help with kart weight distribution calculations, app features, or technical questions.
 ---
 ### Contact
 

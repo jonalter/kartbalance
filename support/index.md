@@ -1,11 +1,25 @@
 ---
 layout: default
 title: KartBalance - Support
+description: Learn how to use KartBalance to calculate kart weight distribution, corner weights, and chassis balance. Complete guide with video tutorial and FAQ for karting setup.
 ---
 ### Support
 
 #### Getting started
 {% include youtube_player.html id="bjoY0g_og5s" %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "KartBalance Getting Started Tutorial",
+  "description": "Learn how to use KartBalance app for kart weight distribution calculations and chassis balance setup",
+  "thumbnailUrl": "https://i.ytimg.com/vi/bjoY0g_og5s/hqdefault.jpg",
+  "uploadDate": "2016-12-01",
+  "contentUrl": "https://www.youtube.com/watch?v=bjoY0g_og5s",
+  "embedUrl": "https://www.youtube.com/embed/bjoY0g_og5s"
+}
+</script>
 
 #### When to use the app
 This app is a weight distribution calculator that can help you predict where weights should be mounted to your racing kart in order to get a desired weight distribution.
@@ -32,7 +46,7 @@ This app is a weight distribution calculator that can help you predict where wei
 **A:** Tap on the title at the top center of the main screen or on one of the corner values.
 
 **Q:** How do remove a weight?  
-**A:** To remove a weight, drag it of rhe chassis or tap it the tap the remove button.
+**A:** To remove a weight, drag it off the chassis or tap it then tap the remove button.
 
 **Q:** This app doesn't do something that would make my life easier.  
 **A:** [Email us](mailto:{{ site.email_support }}) and we will try to incorporate your suggestion into a future release.
@@ -42,3 +56,44 @@ This app is a weight distribution calculator that can help you predict where wei
 
 #### My question wasn't answered. Help!
 Just [email us](mailto:{{ site.email_support }}) and we'll take care of you!
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What units of weight measurement should I use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use any unit of weight measurement you like. It does not matter what units you use as long as you are consistent. If you use two different units, your results will be incorrect."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What weight distribution should my kart have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most karts, 43% Front / 57% Rear and 50% Left/Right is a good place to start. This can be adjusted based on track conditions and driving style."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What scale should I get for weighing my kart?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Get a classic bathroom scale with a dial, not a digital scale. Digital scales usually require you to tap them before weighing, which does not work well for weighing a kart. You'll need four scales, one for each tire."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there an Android version of KartBalance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "KartBalance is currently available for iOS only. An Android version is in development. Contact us at kartbalanceapp@gmail.com to be notified when the Android app launches."
+      }
+    }
+  ]
+}
+</script>
