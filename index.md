@@ -40,7 +40,7 @@ KartBalance is the essential iOS app for racing kart setup and chassis balance. 
 }
 </script>
 
-<div class="content-section">
+<div class="content-section" markdown="1">
 <h2 style="color: #333;">Perfect Your Kart Setup</h2>
 
 Whether you're a competitive kart racer, mechanic, or team manager, KartBalance helps you:
@@ -60,7 +60,7 @@ Proper chassis balance is critical for competitive karting performance. Too much
 
 </div>
 
-<div class="content-section">
+<div class="content-section" markdown="1">
 <h2 style="color: #333;">Features</h2>
 
 - Visual kart chassis diagram with drag-and-drop weight placement
