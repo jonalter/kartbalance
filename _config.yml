@@ -5,7 +5,7 @@ plugins:
 name: KartBalance
 tagline: Balance your kart
 baseurl: ""
-url: "http://jonalter.github.io" # the base hostname & protocol for your site
+url: "https://jonalter.github.io" # the base hostname & protocol for your site
 
 # SEO
 # kart,karting,balance,weight,distribution,scaling,calculator,center,gravity,ratio,scale,chassis,race

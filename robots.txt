@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://kartbalance.com/sitemap.xml
+Sitemap: https://kartbalance.com/sitemap.xml

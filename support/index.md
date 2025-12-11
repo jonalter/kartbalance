@@ -52,7 +52,7 @@ This app is a weight distribution calculator that can help you predict where wei
 **A:** [Email us](mailto:{{ site.email_support }}) and we will try to incorporate your suggestion into a future release.
 
 **Q:** Why is this only for iOS? Where is the Android app?  
-**A:** I'm working on it. [Email us](mailto:{{ site.email_support }}) and we will let you know when it is out.
+**A:** I'm working on it. Family comes first. [Email us](mailto:{{ site.email_support }}) and we will let you know when it is out.
 
 #### My question wasn't answered. Help!
 Just [email us](mailto:{{ site.email_support }}) and we'll take care of you!
