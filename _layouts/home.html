@@ -1,17 +1,28 @@
 ---
 layout: default
 ---
-<div>
-  {{ content }}
-</div>
-<div>
-  <div class="iphone">
-    <div id="screenshots">
-      {% for screenshot in site.screenshots %}
-        {% capture screenshot_path %}/assets/{{ screenshot }}.png{% endcapture %}
-        {% capture screenshot_path2 %}/assets/{{ screenshot }}@2x.png{% endcapture %}
-        <img alt="KartBalance app showing kart weight distribution calculator with corner weights and chassis diagram" src="{{ screenshot_path | prepend: site.baseurl }}" srcset="{{ screenshot_path2 | prepend: site.baseurl }} 2x" width="320" height="568">
-      {% endfor %}
+{% assign parts = content | split: '<!-- home-content-split -->' %}
+{% assign first = parts[0] %}
+{% assign second = parts[1] %}
+
+<div class="grater home-two-col">
+  <div>
+    {{ first }}
+  </div>
+  <div>
+    <div class="iphone">
+      <div id="screenshots">
+        {% for screenshot in site.screenshots %}
+          {% capture screenshot_path %}/assets/{{ screenshot }}.png{% endcapture %}
+          {% capture screenshot_path2 %}/assets/{{ screenshot }}@2x.png{% endcapture %}
+          <img alt="KartBalance app showing kart weight distribution calculator with corner weights and chassis diagram" src="{{ screenshot_path | prepend: site.baseurl }}" srcset="{{ screenshot_path2 | prepend: site.baseurl }} 2x" width="320" height="568">
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
+{% if second %}
+<div class="home-full">
+  {{ second }}
+</div>
+{% endif %}

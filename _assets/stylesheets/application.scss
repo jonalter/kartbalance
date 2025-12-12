@@ -93,6 +93,17 @@ h4 {
 @import "components/iphone";
 @import "components/press";
 
+// Home page layout
+.home-full {
+  clear: both;
+  width: $grater-large-container-width;
+  margin: 2em auto 0;
+
+  @media #{$grater-small-media-query} {
+    width: $grater-small-container-width;
+  }
+}
+
 a.app-store {
   width: 186px;
   height: 55px;
