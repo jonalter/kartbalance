@@ -48,7 +48,7 @@ KartBalance is the essential iOS app for racing kart setup and chassis balance. 
 Whether you're a competitive kart racer, mechanic, or team manager, KartBalance helps you:
 
 - **Calculate weight distribution** - Instantly see front/rear and left/right percentages
-- **Optimize corner weights** - Add and position weights to achieve ideal 43/57 balance
+- **Optimize corner weights** - Add and position weights to achieve your ideal balance
 - **Find center of gravity** - Visualize weight placement effects in real-time
 - **Scale your kart** - Use four bathroom scales for professional results
 - **Save multiple setups** - Track different configurations for various track conditions
