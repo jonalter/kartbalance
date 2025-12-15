@@ -1,7 +1,7 @@
 $grater-large-container-width: 840px !default;
-$grater-small-container-width: 300px !default;
+$grater-small-container-width: 100% !default;
 $grater-column-width: 390px !default;
-$grater-small-media-query: "all and (max-width: 660px)" !default;
+$grater-small-media-query: "all and (max-width: 880px)" !default;
 
 // Grater container
 .grater-container {
@@ -10,6 +10,9 @@ $grater-small-media-query: "all and (max-width: 660px)" !default;
 
   @media #{$grater-small-media-query} {
     width: $grater-small-container-width;
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 }
 
@@ -60,6 +63,7 @@ $grater-small-media-query: "all and (max-width: 660px)" !default;
     margin-bottom: 1em;
 
     > div {
+      width: 100% !important;
       float: none !important; // Shut up. I know, I know
       margin: 0 auto 2em;
     }

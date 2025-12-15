@@ -101,6 +101,9 @@ h4 {
 
   @media #{$grater-small-media-query} {
     width: $grater-small-container-width;
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 }
 
@@ -118,5 +121,17 @@ a.app-store {
 @media #{$grater-small-media-query} {
   p.app-store {
     text-align: center;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  p, ul, ol {
+    line-height: 1.6em;
   }
 }
