@@ -6,7 +6,7 @@ description: Learn how to use KartBalance to calculate kart weight distribution,
 ### Support
 
 #### Getting started
-{% include youtube_player.html id="iisBggftCd8" %}
+{% include youtube_player.html id="bjoY0g_og5s" %}
 
 <script type="application/ld+json">
 {
@@ -14,10 +14,10 @@ description: Learn how to use KartBalance to calculate kart weight distribution,
   "@type": "VideoObject",
   "name": "KartBalance Getting Started Tutorial",
   "description": "Learn how to use KartBalance app for kart weight distribution calculations and chassis balance setup",
-  "thumbnailUrl": "https://i.ytimg.com/vi/iisBggftCd8/hqdefault.jpg",
-  "uploadDate": "2025-12-01",
-  "contentUrl": "https://www.youtube.com/watch?v=iisBggftCd8",
-  "embedUrl": "https://www.youtube.com/embed/iisBggftCd8"
+  "thumbnailUrl": "https://i.ytimg.com/vi/bjoY0g_og5s/hqdefault.jpg",
+  "uploadDate": "2016-12-01",
+  "contentUrl": "https://www.youtube.com/watch?v=bjoY0g_og5s",
+  "embedUrl": "https://www.youtube.com/embed/bjoY0g_og5s"
 }
 </script>
 
