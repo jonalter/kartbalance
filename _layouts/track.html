@@ -1,0 +1,142 @@
+---
+layout: default
+---
+<article class="track-page">
+  <h1>Kart Weight Distribution Setup for {{ page.name }}</h1>
+
+  <div class="track-info">
+    <h2>Track Information</h2>
+    <ul class="track-details">
+      <li><strong>Location:</strong> {{ page.location }}, {{ page.country }}</li>
+      <li><strong>Track Type:</strong> {{ page.type | capitalize }}</li>
+      <li><strong>Surface:</strong> {{ page.surface | capitalize }}</li>
+      <li><strong>Length:</strong> {{ page.length }}</li>
+    </ul>
+    <p>{{ page.track_description }}</p>
+  </div>
+
+  <div class="track-setup-advice">
+    <h2>Weight Distribution Setup Guide for {{ page.name }}</h2>
+
+    {% if page.type == "outdoor" and page.surface == "asphalt" %}
+    <p>Racing at {{ page.name }} means dealing with the full range of outdoor variables that directly affect your kart's weight distribution needs. As an outdoor asphalt facility in {{ page.location }}, ambient temperature, track surface temperature, wind, and even humidity all play a role in how your kart handles throughout a race day.</p>
+
+    <h3>Temperature and Weather Considerations</h3>
+    <p>Outdoor asphalt tracks like {{ page.name }} experience significant grip level changes throughout the day. Morning sessions on cold asphalt may require a different weight balance than afternoon runs when the surface temperature can climb dramatically. As a general guideline, cooler conditions on asphalt often benefit from slightly more front weight bias to compensate for reduced tire grip, while hotter sessions may allow you to shift weight rearward for better traction off corners.</p>
+    <p>Use KartBalance to log your corner weights for each session. Over a race weekend at {{ page.name }}, you may find that your optimal front-to-rear split shifts by 1-2% between the coolest and warmest track conditions. Having precise measurements lets you make informed adjustments rather than guessing.</p>
+
+    <h3>Wind and Exposure</h3>
+    <p>Outdoor tracks are subject to wind, which can change the aerodynamic balance of even a low-profile kart. At {{ page.name }}, pay attention to prevailing wind direction relative to the longest straights. A strong headwind on a straight effectively increases front downforce, while a tailwind can lighten the front end. While you cannot adjust ballast mid-session, understanding these effects helps explain handling changes you might feel lap to lap.</p>
+
+      {% if page.length >= "0.7" %}
+    <h3>Long Track Strategy</h3>
+    <p>At {{ page.length }} in length, {{ page.name }} is a longer circuit that places extra emphasis on straight-line stability and high-speed corner balance. Longer tracks tend to reward a slightly more rear-biased weight distribution to maximize traction out of corners leading onto straights. However, do not sacrifice front-end grip entirely, or you will lose time in braking zones and technical sections.</p>
+    <p>For longer circuits, tire degradation also becomes a factor. As tires wear, the kart's handling changes, and the effective weight distribution shifts. Start with a setup that accounts for mid-run conditions rather than optimizing purely for the first lap.</p>
+      {% else %}
+    <h3>Short Track Precision</h3>
+    <p>At {{ page.length }}, {{ page.name }} is a shorter circuit where corner-to-corner transitions happen quickly. Shorter outdoor asphalt tracks reward a more neutral or slightly front-biased weight distribution that promotes quick turn-in and responsive handling. You spend less time on straights, so maximizing cornering speed is the priority.</p>
+    <p>Braking zones on shorter tracks tend to be more compact, meaning front-end weight transfer under braking is proportionally more important. Use KartBalance to ensure your cross-weight percentage promotes balanced braking stability.</p>
+      {% endif %}
+
+    {% elsif page.type == "outdoor" and page.surface == "concrete" %}
+    <p>{{ page.name }} features a concrete surface in an outdoor setting, creating a unique combination that demands careful weight distribution management. Concrete surfaces generally offer less grip than asphalt, particularly when the surface is dusty or damp.</p>
+
+    <h3>Concrete Surface Characteristics</h3>
+    <p>Concrete tends to be more slippery than asphalt, especially when new or polished by traffic. At {{ page.name }}, you may find that a slightly more conservative front-to-rear weight balance helps maintain stability. Focus on avoiding sudden weight transfer by smoothing your ballast placement and aiming for even corner weights.</p>
+    <p>Concrete surfaces also heat and cool differently than asphalt. The grip level change throughout the day may be less pronounced, but the overall grip level starts lower. Use KartBalance to find a weight distribution that maximizes mechanical grip across all four tires.</p>
+
+    {% elsif page.type == "indoor" %}
+    <p>{{ page.name }} is an indoor facility, which means you benefit from consistent, controlled conditions compared to outdoor tracks. However, indoor karting presents its own unique weight distribution challenges that require careful attention.</p>
+
+    <h3>Consistent Conditions, Precise Setup</h3>
+    <p>The biggest advantage of indoor tracks like {{ page.name }} is environmental consistency. Temperature, humidity, and wind are all controlled, meaning your weight distribution setup should remain effective throughout your entire session. This makes it an ideal environment for systematic setup work using KartBalance, as you can isolate the effects of each weight change without weather variables confusing the results.</p>
+
+    <h3>Concrete Surface and Grip</h3>
+    <p>Most indoor facilities, including {{ page.name }}, use polished or sealed concrete surfaces. These surfaces generally provide less grip than outdoor asphalt, requiring a weight distribution strategy that maximizes mechanical grip. A slightly more neutral or front-biased weight distribution often works well on indoor concrete to promote front tire grip in the tight corners typical of indoor layouts.</p>
+    <p>Rubber buildup on indoor tracks can change grip levels over time, creating a "racing line" with more grip than off-line surfaces. Position your kart's weight to take advantage of this grip differential when entering and exiting the racing line.</p>
+
+    <h3>Tight Corners and Quick Transitions</h3>
+    <p>Indoor tracks like {{ page.name }}, at {{ page.length }}, feature tighter corners and quicker direction changes than most outdoor circuits. This means your kart needs to rotate quickly, which favors a weight distribution that promotes turn-in without causing snap oversteer. Cross-weight balance is particularly important in this environment, as asymmetric weight distribution will be very noticeable on tight, low-speed corners.</p>
+    <p>Use KartBalance to ensure your left-right weight balance is as symmetric as possible. Even a 1% cross-weight imbalance becomes noticeable on tight indoor circuits where the kart spends most of its time cornering.</p>
+
+    {% endif %}
+
+    <h3>Using KartBalance at {{ page.name }}</h3>
+    <p>To get the most from your sessions at {{ page.name }}, follow this weight distribution process:</p>
+    <ol>
+      <li><strong>Establish a baseline:</strong> Scale your kart with the driver seated and record all four corner weights in KartBalance. Note the front-rear percentage split and the left-right cross-weight.</li>
+      <li><strong>Set your target:</strong> Based on the track characteristics described above, determine your target weight distribution. {% if page.type == "outdoor" %}For an outdoor {{ page.surface }} track like {{ page.name }}, consider starting with a 43-44% front / 56-57% rear split and adjusting from there.{% else %}For an indoor facility like {{ page.name }}, try starting closer to a 44-45% front / 55-56% rear split to promote front-end grip on the concrete surface.{% endif %}</li>
+      <li><strong>Make adjustments:</strong> Move ballast in small increments, rescale, and record each change in KartBalance. This creates a log of what you have tried and what worked.</li>
+      <li><strong>Test and iterate:</strong> Run a session, note handling characteristics, and adjust. Over time, you will build a setup database for {{ page.name }} that saves time on future race days.</li>
+    </ol>
+  </div>
+
+  <div class="track-weight-tips">
+    <h2>Weight Distribution Tips for {{ page.type | capitalize }} {{ page.surface | capitalize }} Tracks</h2>
+
+    {% if page.type == "outdoor" %}
+    <h3>Ballast Placement Strategy</h3>
+    <p>On outdoor tracks like {{ page.name }}, ballast placement must account for changing conditions. Mount ballast securely so it can be repositioned between sessions without significant disassembly. Common ballast positions include under the seat, on the seat struts, along the frame rails, and near the front bumper mount.</p>
+    <p>For {{ page.surface }} surfaces, tire grip is your most valuable resource. Place weight where it loads the tires most effectively for the specific corner speeds and radii you encounter at {{ page.name }}. Higher-speed corners generally benefit from lower-mounted ballast for stability, while tight hairpins may benefit from higher-mounted weight that promotes inside rear wheel lift for rotation.</p>
+    {% else %}
+    <h3>Indoor Ballast Strategy</h3>
+    <p>At indoor tracks like {{ page.name }}, the consistent conditions mean you can optimize your ballast placement precisely. Since conditions do not change during your session, focus on finding the ideal weight position rather than a compromise setup. Low-mounted ballast near the kart's center of gravity provides the most predictable handling on the tight corners typical of indoor tracks.</p>
+    <p>Many indoor facilities use rental karts with limited setup options, but if you are running your own kart at {{ page.name }}, the controlled environment is perfect for systematic testing. Change one variable at a time and use KartBalance to measure the result.</p>
+    {% endif %}
+
+    <h3>Cross-Weight Balance</h3>
+    <p>Cross-weight, also known as diagonal weight or wedge, describes the relationship between diagonally opposite corner weights. At {{ page.name }}, aim for a cross-weight as close to 50% as possible for balanced handling in both left and right turns. If the track has more turns in one direction, you might deliberately offset the cross-weight by 0.5-1% to bias grip toward the dominant turning direction.</p>
+
+    <h3>Driver Weight Considerations</h3>
+    <p>Your seating position is the single largest weight variable on a kart. Before adding ballast at {{ page.name }}, ensure your seat position optimizes the natural weight distribution of the driver-kart package. Seat height, fore-aft position, and tilt angle all affect corner weights significantly. Use KartBalance to measure the effects of seat adjustments before adding external ballast.</p>
+  </div>
+
+  {% if site.posts.size > 0 %}
+  <div class="related-posts">
+    <h2>Related Setup Guides</h2>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% include app-cta.html %}
+
+  <p class="back-link"><a href="{{ site.baseurl }}/resources">&larr; Browse All Tracks &amp; Brands</a></p>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/icon-rounded-280.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "about": {
+    "@type": "Place",
+    "name": {{ page.name | jsonify }},
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ page.location }}",
+      "addressCountry": "{{ page.country }}"
+    }
+  }
+}
+</script>

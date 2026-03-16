@@ -1,0 +1,74 @@
+---
+layout: default
+title: "Kart Setup Guides by Track & Brand | KartBalance Resources"
+description: "Browse kart weight distribution setup guides for popular tracks and chassis brands. Find track-specific tips and brand-specific tuning advice for your kart."
+---
+<div class="resources-index">
+  <h3>Kart Setup Resources</h3>
+  <p>Browse our library of track-specific and brand-specific weight distribution guides. Each page includes detailed setup advice tailored to the unique characteristics of the track or chassis.</p>
+
+  <h2 id="tracks">Track Setup Guides</h2>
+  <p>Find weight distribution tips optimized for specific karting tracks around the world.</p>
+
+  <h4>United States - Outdoor Tracks</h4>
+  <div class="resource-list">
+    {% assign us_outdoor = site.tracks | where: "country", "USA" | where: "type", "outdoor" | sort: "name" %}
+    {% for track in us_outdoor %}
+    <div class="resource-item">
+      <a href="{{ track.url | prepend: site.baseurl }}">{{ track.name }}</a>
+      <span class="resource-meta">{{ track.location }} &middot; {{ track.surface | capitalize }} &middot; {{ track.length }}</span>
+    </div>
+    {% endfor %}
+  </div>
+
+  <h4>United States - Indoor Tracks</h4>
+  <div class="resource-list">
+    {% assign us_indoor = site.tracks | where: "country", "USA" | where: "type", "indoor" | sort: "name" %}
+    {% for track in us_indoor %}
+    <div class="resource-item">
+      <a href="{{ track.url | prepend: site.baseurl }}">{{ track.name }}</a>
+      <span class="resource-meta">{{ track.location }} &middot; {{ track.surface | capitalize }} &middot; {{ track.length }}</span>
+    </div>
+    {% endfor %}
+  </div>
+
+  <h4>International Tracks</h4>
+  <div class="resource-list">
+    {% assign all_tracks_sorted = site.tracks | sort: "name" %}
+    {% for track in all_tracks_sorted %}
+    {% if track.country == "USA" %}{% continue %}{% endif %}
+    <div class="resource-item">
+      <a href="{{ track.url | prepend: site.baseurl }}">{{ track.name }}</a>
+      <span class="resource-meta">{{ track.location }}, {{ track.country }} &middot; {{ track.surface | capitalize }} &middot; {{ track.length }}</span>
+    </div>
+    {% endfor %}
+  </div>
+
+  <h2 id="brands">Kart Brand Guides</h2>
+  <p>Explore chassis-specific weight distribution advice for the major kart manufacturers.</p>
+
+  <div class="resource-list">
+    {% assign brands = site.brands | sort: "name" %}
+    {% for brand in brands %}
+    <div class="resource-item">
+      <a href="{{ brand.url | prepend: site.baseurl }}">{{ brand.name }}</a>
+      <span class="resource-meta">{{ brand.country }} &middot; {{ brand.manufacturer }} &middot; {{ brand.chassis_type | capitalize }}</span>
+    </div>
+    {% endfor %}
+  </div>
+
+  <h2 id="classes">Racing Classes Reference</h2>
+  <p>Common karting classes and their weight requirements.</p>
+
+  <div class="resource-list">
+    {% for cls in site.data.classes %}
+    <div class="resource-item">
+      <strong>{{ cls.name }}</strong> ({{ cls.full_name }})
+      <span class="resource-meta">{{ cls.engine_type }} &middot; Min Weight: {{ cls.min_weight }} &middot; Ages {{ cls.typical_age }}</span>
+      <p class="resource-description">{{ cls.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% include app-cta.html %}
+</div>

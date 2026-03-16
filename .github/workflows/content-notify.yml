@@ -1,0 +1,115 @@
+name: New Blog Post Notification
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect new/modified posts
+        id: posts
+        run: |
+          # Find changed post files
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- '_posts/' || echo "")
+          if [ -z "$CHANGED" ]; then
+            echo "No post changes detected"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changed posts:"
+            echo "$CHANGED"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+
+            # Extract info from the first changed post
+            FIRST_POST=$(echo "$CHANGED" | head -1)
+            TITLE=$(grep -m1 '^title:' "$FIRST_POST" | sed 's/title: *"//' | sed 's/"$//' | sed "s/title: *'//" | sed "s/'$//")
+            DESC=$(grep -m1 '^description:' "$FIRST_POST" | sed 's/description: *"//' | sed 's/"$//' | sed "s/description: *'//" | sed "s/'$//")
+
+            # Build the URL from filename
+            FILENAME=$(basename "$FIRST_POST" .md)
+            # Extract date parts and slug from filename like 2026-03-15-my-post-title
+            YEAR=$(echo "$FILENAME" | cut -d'-' -f1)
+            MONTH=$(echo "$FILENAME" | cut -d'-' -f2)
+            SLUG=$(echo "$FILENAME" | cut -d'-' -f4-)
+            URL="https://kartbalance.com/blog/${YEAR}/${MONTH}/${SLUG}/"
+
+            echo "title=$TITLE" >> $GITHUB_OUTPUT
+            echo "description=$DESC" >> $GITHUB_OUTPUT
+            echo "url=$URL" >> $GITHUB_OUTPUT
+            echo "all_posts=$CHANGED" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate social snippets
+        if: steps.posts.outputs.has_changes == 'true'
+        id: snippets
+        run: |
+          TITLE="${{ steps.posts.outputs.title }}"
+          URL="${{ steps.posts.outputs.url }}"
+          DESC="${{ steps.posts.outputs.description }}"
+          APPSTORE="https://apps.apple.com/us/app/kartbalance/id1151974965"
+
+          # Generate snippets
+          cat << SNIPPETS_EOF > /tmp/snippets.md
+          # New Blog Post Published
+
+          **Title:** $TITLE
+          **URL:** $URL
+
+          ---
+
+          ## Twitter/X Draft
+          $TITLE
+
+          ${DESC:0:200}
+
+          $URL
+
+          #karting #kartsetup #racing #motorsports
+
+          ---
+
+          ## Reddit Draft (r/Karting, r/gokarts)
+          **$TITLE**
+
+          $DESC
+
+          Full article: $URL
+
+          ---
+
+          ## Facebook Draft
+          $TITLE
+
+          $DESC
+
+          Read the full guide: $URL
+
+          Download KartBalance: $APPSTORE
+          SNIPPETS_EOF
+
+          cat /tmp/snippets.md
+
+      - name: Create GitHub Issue with snippets
+        if: steps.posts.outputs.has_changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const snippets = fs.readFileSync('/tmp/snippets.md', 'utf8');
+            const title = `New post: ${{ steps.posts.outputs.title }}`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: snippets + '\n\n---\n\n**Action items:**\n- [ ] Review and post to Twitter/X\n- [ ] Review and post to Reddit (follow 9:1 rule)\n- [ ] Review and post to Facebook groups\n- [ ] Review and post to karting forums',
+              labels: ['content-distribution']
+            });

@@ -11,6 +11,7 @@
   {% include analytics.html %}
   {% endif %}
   {% seo %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | absolute_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta name="apple-itunes-app" content="app-id=1151974965">
   {% include social-meta.html %}
@@ -42,6 +43,8 @@
         <li><a href="{{ site.baseurl }}/support">Support</a></li>
         <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
         <li><a href="{{ site.baseurl }}/privacy">Privacy</a></li>
+        <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+        <li><a href="{{ site.baseurl }}/resources">Setup Guides</a></li>
       </ul>
     </div>
   </footer>
@@ -49,5 +52,8 @@
   {% for js in page.js %}
     <script src="{{ js }}"></script>
   {% endfor %}
+  {% if jekyll.environment == 'production' %}
+  <script src="{{ "/assets/tracking.js" | prepend: site.baseurl }}"></script>
+  {% endif %}
 </body>
 </html>

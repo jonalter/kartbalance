@@ -87,6 +87,9 @@ body > footer {
   padding: 1em 0;
   color: $light-text-color;
   font: 18px $avenir-light;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 
   a {
     color: $light-text-color;
@@ -96,15 +99,31 @@ body > footer {
     }
   }
 
+  > div:first-child {
+    float: none;
+    width: auto;
+    flex-shrink: 0;
+    margin-right: auto;
+  }
+
+  > div:last-child {
+    float: none;
+    width: auto;
+  }
+
   ul {
-    float: right;
+    float: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em;
     text-align: right;
   }
 
   li {
-    float: left;
-    margin-left: 1em;
+    float: none;
+    margin-left: 0;
     display: inline-block;
+    white-space: nowrap;
   }
 
   @media #{$grater-small-media-query} {

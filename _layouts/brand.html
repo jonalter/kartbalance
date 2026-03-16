@@ -1,0 +1,131 @@
+---
+layout: default
+---
+<article class="brand-page">
+  <h1>Weight Distribution Guide for {{ page.name }} Karts</h1>
+
+  <div class="brand-overview">
+    <h2>About {{ page.name }}</h2>
+    <ul class="brand-details">
+      <li><strong>Country:</strong> {{ page.country }}</li>
+      <li><strong>Manufacturer:</strong> {{ page.manufacturer }}</li>
+      <li><strong>Chassis Type:</strong> {{ page.chassis_type | capitalize }}</li>
+      <li><strong>Typical Chassis Weight:</strong> {{ page.typical_weight }}</li>
+    </ul>
+
+    <h3>Popular Models</h3>
+    <ul class="model-list">
+      {% for model in page.popular_models %}
+      <li>{{ page.name }} {{ model }}</li>
+      {% endfor %}
+    </ul>
+
+    <p><strong>Known for:</strong> {{ page.known_for }}</p>
+  </div>
+
+  <div class="brand-setup">
+    <h2>{{ page.name }} Weight Distribution Setup</h2>
+
+    <h3>Chassis Characteristics</h3>
+    <p>{{ page.setup_notes }}</p>
+
+    <p>Every {{ page.name }} chassis has its own personality shaped by the frame's tubing diameter, material grade, and geometry. Understanding how your specific {{ page.name }} model responds to weight changes is the foundation of an effective setup. KartBalance helps you measure and track these responses precisely, turning guesswork into data-driven decisions.</p>
+
+    {% if page.chassis_type == "sprint" %}
+    <h3>Sprint Chassis Weight Distribution</h3>
+    <p>As a {{ page.chassis_type }} chassis, {{ page.name }} karts are designed for short circuit racing where cornering speed and quick transitions are paramount. Sprint chassis lack a differential, relying entirely on chassis flex and weight transfer to lift the inside rear wheel through corners. This makes weight distribution setup one of the most critical aspects of your {{ page.name }} kart's performance.</p>
+
+    <p>The typical {{ page.name }} chassis weighs approximately {{ page.typical_weight }} bare, which means the driver, engine, and ballast make up a significant portion of the total race weight. Where you place that weight determines how the kart enters, traverses, and exits every corner on the track.</p>
+    {% endif %}
+
+    <h3>How Chassis Flex Affects Weight Balance</h3>
+    <p>Kart chassis are specifically designed to flex under load. This flex is what allows a kart without a differential to negotiate corners by unloading the inside rear tire. On a {{ page.name }} chassis, the flex pattern is tuned by the manufacturer to provide a specific handling feel.</p>
+    <p>Weight distribution interacts directly with chassis flex. More weight on the front increases the load that creates flex in the frame, promoting inside rear wheel lift. More weight on the rear increases traction but can reduce the chassis's ability to free up the inside rear, leading to a kart that pushes or binds through corners.</p>
+    <p>With a {{ page.name }} chassis, use KartBalance to find the weight distribution that allows the chassis flex to work as the engineers intended. The goal is a kart that lifts the inside rear tire just enough for clean rotation without losing rear-end stability on corner exit.</p>
+
+    <h3>Finding Your Baseline Setup</h3>
+    <p>Start your {{ page.name }} setup process with these steps:</p>
+    <ol>
+      <li><strong>Scale the bare chassis:</strong> Before adding the engine, seat, or any accessories, weigh each corner of the bare {{ page.name }} frame. This tells you the chassis's inherent weight distribution and reveals any asymmetry.</li>
+      <li><strong>Add components systematically:</strong> Install the engine, then the seat, then the driver, weighing at each stage. KartBalance lets you track how each addition changes the corner weights and overall balance.</li>
+      <li><strong>Establish front-rear split:</strong> Most {{ page.name }} chassis perform well with a front-rear split in the range of 42-45% front and 55-58% rear with the driver seated. Your exact target depends on the track, tire compound, and driving style.</li>
+      <li><strong>Check cross-weight:</strong> Measure the diagonal weight percentages. A 50% cross-weight means balanced handling in both directions. Adjust if the track has a directional bias.</li>
+      <li><strong>Add ballast strategically:</strong> If you need additional weight to meet class minimums, use KartBalance to determine the ideal ballast placement that achieves your target distribution.</li>
+    </ol>
+
+    <h3>{{ page.name }}-Specific Tuning Variables</h3>
+    <p>Beyond ballast placement, several setup changes affect weight distribution on a {{ page.name }} kart:</p>
+    <ul>
+      <li><strong>Seat position:</strong> Moving the seat forward shifts weight to the front; moving it back shifts weight rearward. On a {{ page.name }}, even 5mm of seat movement can change the front-rear split by 0.5-1%.</li>
+      <li><strong>Seat height:</strong> Raising the seat raises the center of gravity, increasing weight transfer in corners. This can help or hurt depending on the track and conditions.</li>
+      <li><strong>Front track width:</strong> Widening the front track effectively increases the leverage the front tires have, which interacts with weight distribution to affect turn-in response.</li>
+      <li><strong>Rear track width:</strong> Narrowing the rear track on a {{ page.name }} concentrates the rear weight load on a smaller footprint, which can increase rear grip.</li>
+      <li><strong>Axle stiffness:</strong> Stiffer axles resist flex, affecting how weight transfers through the rear of the {{ page.name }} chassis during cornering.</li>
+    </ul>
+
+    <h3>Recording and Comparing Setups</h3>
+    <p>One of the most valuable habits you can build as a {{ page.name }} racer is recording every setup change and its effect on handling. Use KartBalance to save your corner weight readings from each session. Over time, this data becomes a setup library that saves you hours of trial and error at every race weekend.</p>
+    <p>Compare your {{ page.name }} setups across different tracks and conditions. You will begin to see patterns, such as which front-rear split works best on high-grip tracks versus low-grip tracks, or how temperature changes affect your ideal cross-weight percentage.</p>
+
+    {% if page.manufacturer != page.name %}
+    <h3>{{ page.manufacturer }} Group Setup Resources</h3>
+    <p>{{ page.name }} is part of the {{ page.manufacturer }} family. While each brand within the group has its own handling characteristics, they share certain design philosophies. Setup knowledge gained on one {{ page.manufacturer }} chassis can often serve as a useful starting point when switching to another brand in the group.</p>
+    {% endif %}
+  </div>
+
+  <div class="weight-methodology">
+    <h2>General Weight Distribution Methodology</h2>
+    <p>Whether you race a {{ page.name }} or any other kart brand, the fundamental principles of weight distribution remain the same. The goal is to optimize the load on each tire to maximize total grip and create the handling balance your driving style requires.</p>
+
+    <h3>The Four Corner Weights</h3>
+    <p>Every kart sits on four contact patches. The weight on each of those four points determines the grip available at that corner of the kart. KartBalance calculates these percentages instantly from your scale readings, giving you a clear picture of your kart's balance.</p>
+
+    <h3>Why Small Changes Matter</h3>
+    <p>In karting, where total vehicle weight is low (typically 300-400 lbs with driver), moving even a few pounds of ballast can change weight distribution by a full percentage point. On a {{ page.name }} weighing {{ page.typical_weight }} bare, a 2-pound weight shift can be the difference between an understeering and a neutral-handling kart. This is why precise measurement with KartBalance is so valuable.</p>
+  </div>
+
+  {% include app-cta.html %}
+
+  <p class="back-link"><a href="{{ site.baseurl }}/resources">&larr; Browse All Tracks &amp; Brands</a></p>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/icon-rounded-280.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "about": {
+    "@type": "Product",
+    "name": {{ page.name | jsonify }},
+    "brand": {
+      "@type": "Brand",
+      "name": {{ page.manufacturer | jsonify }}
+    },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": {{ page.manufacturer | jsonify }},
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {{ page.country | jsonify }}
+      }
+    }
+  }
+}
+</script>
