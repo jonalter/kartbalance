@@ -1,0 +1,128 @@
+---
+layout: default
+---
+<article class="class-page">
+  <h1>{{ page.full_name }} Weight Distribution Setup Guide</h1>
+
+  <div class="class-overview">
+    <h2>About the {{ page.name }} Class</h2>
+    <ul class="class-details">
+      <li><strong>Full Name:</strong> {{ page.full_name }}</li>
+      <li><strong>Engine Type:</strong> {{ page.engine_type | capitalize }}</li>
+      <li><strong>Minimum Weight:</strong> {{ page.min_weight }}</li>
+      <li><strong>Typical Age Group:</strong> {{ page.typical_age }}</li>
+    </ul>
+    <p>{{ page.class_description }}</p>
+  </div>
+
+  <div class="class-setup">
+    <h2>{{ page.name }} Weight Distribution Strategy</h2>
+
+    <h3>Weight Notes for {{ page.name }}</h3>
+    <p>{{ page.weight_notes }}</p>
+
+    {% if page.engine_type == "4-stroke" %}
+    <h3>Four-Stroke Weight Distribution Considerations</h3>
+    <p>Four-stroke classes like {{ page.name }} are defined by sealed, spec engines where every competitor has the same power output. This means chassis setup and weight distribution are the most impactful variables you can control. With identical engines across the field, the kart that handles best through the corners wins races, and weight distribution is the foundation of handling.</p>
+    <p>The {{ page.name }} engine's power delivery is smooth and linear, which means the kart's behavior mid-corner and on exit is heavily influenced by how weight transfers through the chassis. A well-balanced kart allows the driver to carry more speed through corners, which is the primary way to gain time in a four-stroke class where straight-line speed is limited.</p>
+
+    {% elsif page.engine_type contains "2-stroke" %}
+    <h3>Two-Stroke Weight Distribution Considerations</h3>
+    <p>Two-stroke classes like {{ page.name }} deliver significantly more power than four-stroke alternatives, which amplifies the effects of weight distribution on corner exit behavior. With more horsepower available, a poorly balanced kart will punish the driver with wheelspin, bog, or snap oversteer when the power comes in.</p>
+    <p>The {{ page.name }} engine's powerband characteristics mean that weight distribution directly affects how the kart transitions from mid-corner to acceleration. Too much rear weight and the kart may push entering the corner but break loose on exit. Too little rear weight and you lose traction when you need it most. KartBalance helps you find the sweet spot where the chassis works in harmony with the engine's power delivery.</p>
+
+      {% if page.engine_type contains "6-speed" %}
+    <h3>Gearbox and Weight Balance</h3>
+    <p>The six-speed sequential gearbox in the {{ page.name }} class adds complexity to weight distribution management. The gearbox itself adds weight to the rear of the kart, creating a naturally rear-biased distribution that must be compensated for with strategic ballast placement. Additionally, the wide speed range provided by six gears means the kart experiences very different weight transfer forces at low-speed hairpins versus high-speed sweepers.</p>
+    <p>Use KartBalance to measure your corner weights at static ride height, then consider how the dramatic braking and acceleration forces in a shifter kart will affect dynamic weight transfer throughout a lap.</p>
+      {% endif %}
+    {% endif %}
+
+    <h3>Minimum Weight: {{ page.min_weight }}</h3>
+    <p>The {{ page.name }} class mandates a minimum combined weight of {{ page.min_weight }} for kart and driver. Understanding how this minimum weight requirement affects your setup is essential. If you and your kart are under the minimum, you have the opportunity to strategically place ballast exactly where it optimizes your weight distribution. If you are at or near the minimum, every component's position matters because you have less ballast to use as a tuning tool.</p>
+    <p>Use KartBalance to weigh your kart with the driver seated and determine exactly how much ballast you need to add. Then experiment with ballast placement to achieve your target front-rear and left-right weight splits. Even a few pounds moved a few inches can transform the handling balance of your kart.</p>
+
+    <h3>Setting Up Your {{ page.name }} Kart</h3>
+    <p>Follow this process to optimize weight distribution for {{ page.name }} competition:</p>
+    <ol>
+      <li><strong>Scale the kart with driver:</strong> Weigh all four corners of the kart with the driver seated in their normal racing position. Enter these values into KartBalance to see your current weight distribution percentages.</li>
+      <li><strong>Identify your target split:</strong> For {{ page.name }} karts, a typical starting point is 43-44% front and 56-57% rear weight distribution. Adjust this target based on your specific track, tire compound, and driving style.</li>
+      <li><strong>Check cross-weight:</strong> Measure the diagonal weight percentages. Aim for 50% cross-weight for balanced handling in both left and right turns. If your track favors one direction, adjust by up to 1% toward the dominant turning direction.</li>
+      <li><strong>Adjust seat position:</strong> Before adding external ballast, optimize your seat position. Moving the seat forward shifts weight to the front; moving it back shifts weight rearward. Even 5mm of seat movement can change your weight split.</li>
+      <li><strong>Place ballast strategically:</strong> Use KartBalance to calculate how much weight you need and where to place it. Common positions include under the seat, on the seat struts, along the frame rails, and near the front bumper mount.</li>
+      <li><strong>Test and refine:</strong> Run a session, evaluate handling, and make small adjustments. Record every setup change in KartBalance to build a setup database over time.</li>
+    </ol>
+
+    {% if page.typical_age contains "-" or page.typical_age contains "5" or page.typical_age contains "8" %}
+      {% unless page.typical_age contains "+" %}
+    <h3>Youth Driver Considerations</h3>
+    <p>The {{ page.name }} class serves younger drivers in the {{ page.typical_age }} age range. Young drivers are still growing, which means their weight changes over a season and their physical size affects how weight distributes across the kart. Coaches and parents should re-scale the kart regularly, ideally at every race weekend, to ensure the weight distribution remains optimized as the driver grows.</p>
+    <p>KartBalance makes it easy to quickly check corner weights and adjust ballast between sessions. Building good setup habits early gives young racers a competitive advantage and teaches them the engineering fundamentals that apply at every level of motorsport.</p>
+      {% endunless %}
+    {% endif %}
+
+    <h3>Track-Specific Adjustments for {{ page.name }}</h3>
+    <p>No single weight distribution setup works perfectly at every track. The ideal balance for your {{ page.name }} kart depends on the track layout, surface type, and conditions. High-grip tracks with fast sweeping corners may benefit from a slightly different front-rear split than low-grip tracks with tight hairpins.</p>
+    <p>Use KartBalance to save your setup for each track you visit. Over time, you will build a library of proven setups that saves you hours of trial and error at each race weekend. When you return to a track, start with your saved baseline and adjust for current conditions rather than starting from scratch.</p>
+
+    <h3>Recording and Comparing Setups</h3>
+    <p>One of the most valuable habits you can build as a {{ page.name }} racer is recording every setup change and its effect on handling. Use KartBalance to save your corner weight readings from each session. Over time, this data becomes a setup library that saves you hours of trial and error at every race weekend.</p>
+    <p>Compare your {{ page.name }} setups across different tracks and conditions. You will begin to see patterns, such as which front-rear split works best on high-grip tracks versus low-grip tracks, or how temperature changes affect your ideal cross-weight percentage.</p>
+  </div>
+
+  <div class="weight-methodology">
+    <h2>General Weight Distribution Methodology</h2>
+    <p>Whether you race {{ page.name }} or any other class, the fundamental principles of weight distribution remain the same. The goal is to optimize the load on each tire to maximize total grip and create the handling balance your driving style requires.</p>
+
+    <h3>The Four Corner Weights</h3>
+    <p>Every kart sits on four contact patches. The weight on each of those four points determines the grip available at that corner of the kart. KartBalance calculates these percentages instantly from your scale readings, giving you a clear picture of your kart's balance.</p>
+
+    <h3>Why Small Changes Matter</h3>
+    <p>In karting, where total vehicle weight is low, moving even a few pounds of ballast can change weight distribution by a full percentage point. In the {{ page.name }} class at {{ page.min_weight }} minimum, a 2-pound weight shift can be the difference between an understeering and a neutral-handling kart. This is why precise measurement with KartBalance is so valuable.</p>
+  </div>
+
+  {% if site.posts.size > 0 %}
+  <div class="related-posts">
+    <h2>Related Setup Guides</h2>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% include app-cta.html %}
+
+  <p class="back-link"><a href="{{ site.baseurl }}/resources">&larr; Browse All Tracks &amp; Brands</a></p>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/icon-rounded-280.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": {{ page.full_name | jsonify }},
+    "description": {{ page.class_description | jsonify }}
+  }
+}
+</script>

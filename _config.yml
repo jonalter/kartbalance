@@ -12,6 +12,9 @@ collections:
   brands:
     output: true
     permalink: /kart-brand/:path/
+  classes:
+    output: true
+    permalink: /kart-class/:path/
 
 paginate: 10
 paginate_path: "/blog/page:num"

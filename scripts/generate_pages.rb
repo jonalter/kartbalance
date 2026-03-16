@@ -115,4 +115,39 @@ brands.each do |brand|
   puts "  Created: #{path}"
 end
 
-puts "\nDone! Generated #{tracks.length} track pages and #{brands.length} brand pages."
+# --- Generate Class Pages ---
+classes_dir = File.join(ROOT, '_classes')
+classes = load_data('classes.yml')
+
+puts "\nGenerating #{classes.length} class pages..."
+classes.each do |klass|
+  slug = klass['slug']
+  name = klass['name']
+  full_name = klass['full_name']
+
+  # Build unique title (under 60 chars ideally for SERP)
+  title = "#{name} Kart Weight Distribution Setup Guide | KartBalance"
+
+  # Build unique description (150-160 chars)
+  description = "#{full_name} kart weight distribution guide. Setup tips for #{name} racing, corner weight optimization, and ballast strategy at #{klass['min_weight']} minimum."
+  description = description[0..159]
+
+  frontmatter = {
+    'layout' => 'class',
+    'title' => title,
+    'description' => description,
+    'name' => name,
+    'slug' => slug,
+    'full_name' => full_name,
+    'engine_type' => klass['engine_type'],
+    'min_weight' => klass['min_weight'],
+    'typical_age' => klass['typical_age'],
+    'class_description' => klass['description'],
+    'weight_notes' => klass['weight_notes']
+  }
+
+  path = write_page(classes_dir, slug, frontmatter)
+  puts "  Created: #{path}"
+end
+
+puts "\nDone! Generated #{tracks.length} track pages, #{brands.length} brand pages, and #{classes.length} class pages."
