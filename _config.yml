@@ -4,6 +4,7 @@ plugins:
   - jekyll-paginate
 
 permalink: /blog/:year/:month/:title/
+future: true
 
 collections:
   tracks:
