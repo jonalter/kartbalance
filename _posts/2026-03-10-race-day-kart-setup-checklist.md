@@ -27,7 +27,7 @@ These are done in the paddock before the kart moves.
 
 ### Weight and Balance
 
-- **Set the kart on scales with the driver in full gear.** Follow the [scaling procedure](/blog/2026/03/how-to-scale-racing-kart/) every race morning, not just when you think something changed.
+- **Set the kart on scales with the driver in full gear.** Follow the [scaling procedure](/blog/2026/02/how-to-scale-racing-kart/) every race morning, not just when you think something changed.
 - **Record all four corner weights.** LF, RF, LR, RR.
 - **Calculate front/rear, left/right, and cross weight percentages.** Compare to your baseline.
 - **Verify total weight meets class minimum.** Account for fuel that will burn during the race. If post-race tech will weigh you, make sure you are above minimum with the fuel load you will have at the finish.

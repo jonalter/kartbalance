@@ -77,7 +77,7 @@ Setup approach: The same 43/57 baseline applies, but the Krypton tolerates a sli
 
 The Rookie is Tony Kart's chassis for younger drivers in cadet and mini classes. It is a smaller frame designed for lighter total weights, and the flex characteristics are tailored to the reduced loads that young drivers and small engines produce.
 
-Setup approach: Cadet-class Tony Karts work with similar front/rear percentages (42-44% front) but the reduced total weight means each adjustment has a proportionally larger effect. See the [cadet kart setup guide](/blog/2026/06/02/cadet-kart-setup-weight-distribution-young-drivers/) for detailed guidance on youth class weight distribution.
+Setup approach: Cadet-class Tony Karts work with similar front/rear percentages (42-44% front) but the reduced total weight means each adjustment has a proportionally larger effect. See the [cadet kart setup guide](/blog/2026/06/cadet-kart-setup-weight-distribution-young-drivers/) for detailed guidance on youth class weight distribution.
 
 ## Axle and Seat Strut Options
 
@@ -125,7 +125,7 @@ Here is a practical setup process for getting the most out of your Tony Kart or 
 
 **3. Adjust the seat first.** If the front/rear balance is more than a full percentage point off, consider a seat move. On a Tony Kart, this is the most effective single change you can make. Re-scale after the move.
 
-**4. Fine-tune with ballast.** Use ballast to bring the left/right balance to 50/50 and to make small front/rear adjustments. Place ballast deliberately and record the position and weight of every piece. The [ballast placement guide](/blog/2026/03/01/ballast-placement-guide/) covers mounting locations and their effects in detail.
+**4. Fine-tune with ballast.** Use ballast to bring the left/right balance to 50/50 and to make small front/rear adjustments. Place ballast deliberately and record the position and weight of every piece. The [ballast placement guide](/blog/2026/03/ballast-placement-guide/) covers mounting locations and their effects in detail.
 
 **5. Set standard chassis hardware.** Axle stiffness, rear track width, front bar, seat struts -- set these to the manufacturer's baseline recommendations. Do not change them until your weight distribution is correct.
 
@@ -135,6 +135,6 @@ Here is a practical setup process for getting the most out of your Tony Kart or 
 
 The OTK platform rewards this disciplined approach. The chassis is good enough that when you give it the right weight distribution, it does most of the work for you. Your job is to find that balance and then maintain it consistently.
 
-For a comprehensive overview of weight distribution fundamentals, read the [complete guide to kart weight distribution](/blog/2026/02/15/complete-guide-kart-weight-distribution/). For detailed ballast strategy, the [ballast placement guide](/blog/2026/03/01/ballast-placement-guide/) covers everything from mounting locations to material selection.
+For a comprehensive overview of weight distribution fundamentals, read the [complete guide to kart weight distribution](/blog/2026/02/complete-guide-kart-weight-distribution/). For detailed ballast strategy, the [ballast placement guide](/blog/2026/03/ballast-placement-guide/) covers everything from mounting locations to material selection.
 
 {% include app-cta.html %}

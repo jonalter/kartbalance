@@ -55,7 +55,7 @@ In senior classes, experienced racers sometimes get away with approximate setups
 
 Young drivers are also less able to compensate for a poorly balanced kart through driving technique. An experienced adult can drive around a slight push by adjusting their braking point and line. A nine-year-old in their second season does not have that toolkit yet. They need the kart to be right so they can focus on learning racecraft rather than fighting the chassis.
 
-This is why scaling a cadet kart is not optional if you want to be competitive. Four bathroom scales on a flat garage floor, with the driver seated in position, will give you corner weights accurate enough to make meaningful setup decisions. The [complete guide to kart weight distribution](/blog/2026/02/15/complete-guide-kart-weight-distribution/) covers the measurement process in detail.
+This is why scaling a cadet kart is not optional if you want to be competitive. Four bathroom scales on a flat garage floor, with the driver seated in position, will give you corner weights accurate enough to make meaningful setup decisions. The [complete guide to kart weight distribution](/blog/2026/02/complete-guide-kart-weight-distribution/) covers the measurement process in detail.
 
 ## Safe and Secure Ballast Mounting
 
@@ -125,6 +125,6 @@ Do not rush the process. A well-balanced cadet kart with an average driver who i
 
 Measure the basics, record what you find, make one change at a time, and enjoy the track days. The speed will come.
 
-For detailed guidance on weight distribution principles that apply across all classes, see the [complete guide to kart weight distribution](/blog/2026/02/15/complete-guide-kart-weight-distribution/). And if you are making setup mistakes without realizing it, the [common kart setup mistakes](/blog/2026/02/21/common-kart-setup-mistakes/) post covers the errors that cost the most lap time.
+For detailed guidance on weight distribution principles that apply across all classes, see the [complete guide to kart weight distribution](/blog/2026/02/complete-guide-kart-weight-distribution/). And if you are making setup mistakes without realizing it, the [common kart setup mistakes](/blog/2026/02/common-kart-setup-mistakes/) post covers the errors that cost the most lap time.
 
 {% include app-cta.html %}

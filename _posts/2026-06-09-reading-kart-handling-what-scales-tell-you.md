@@ -65,7 +65,7 @@ The kart feels different every session, or different between morning and afterno
 
 The kart feels good for the first five laps and then develops a problem.
 
-**What to check on the scales:** Scale the kart at two fuel levels -- full and near-empty. See how much the front/rear ratio shifts as fuel burns off. If the tank is behind the seat, fuel burn-off removes weight from the rear and shifts the balance forward, which can create oversteer in the second half of a race. The [common kart setup mistakes](/blog/2026/02/21/common-kart-setup-mistakes/) post covers fuel burn-off in detail.
+**What to check on the scales:** Scale the kart at two fuel levels -- full and near-empty. See how much the front/rear ratio shifts as fuel burns off. If the tank is behind the seat, fuel burn-off removes weight from the rear and shifts the balance forward, which can create oversteer in the second half of a race. The [common kart setup mistakes](/blog/2026/02/common-kart-setup-mistakes/) post covers fuel burn-off in detail.
 
 **But also consider:** Tire degradation changes grip levels over a session. Tire pressures rise as the tires heat up. The driver may fatigue, which changes their body position in the seat and subtly shifts the weight distribution.
 
@@ -113,7 +113,7 @@ The teams that win championships are not necessarily the ones with the most expe
 
 This is important enough to deserve its own section. Not every handling problem is a weight distribution problem. If you have scaled the kart, the numbers match your target, and the kart still does not handle well, look at these other variables before moving more ballast.
 
-**Tire pressures.** This is the fastest, cheapest, and most commonly mismanaged variable in karting. Half a PSI of front tire pressure can have more effect on understeer than a percentage point of weight distribution change. The [how to scale your racing kart](/blog/2026/02/18/how-to-scale-racing-kart/) guide covers the interaction between scaling and tire pressures.
+**Tire pressures.** This is the fastest, cheapest, and most commonly mismanaged variable in karting. Half a PSI of front tire pressure can have more effect on understeer than a percentage point of weight distribution change. The [how to scale your racing kart](/blog/2026/02/how-to-scale-racing-kart/) guide covers the interaction between scaling and tire pressures.
 
 **Alignment.** Toe, camber, and caster all affect handling independently of weight distribution. A kart with correct weight distribution but incorrect front-end alignment will still handle poorly.
 
@@ -133,6 +133,6 @@ The goal is not to eliminate feel from your setup process. Feel is valuable inpu
 
 The scales do not lie. They do not have bad days. They do not misremember. Start with the numbers, layer the driver feedback on top, and build a setup process that gets faster every time you run it.
 
-For a deeper understanding of how weight distribution connects to handling, read the [complete guide to kart weight distribution](/blog/2026/02/15/complete-guide-kart-weight-distribution/). To understand specific handling symptoms in detail, the [understeer and oversteer guide](/blog/2026/02/24/understeer-oversteer-weight-distribution/) breaks down the physics. And if you are making basic errors that undermine your data, the [common setup mistakes](/blog/2026/02/21/common-kart-setup-mistakes/) post will help you identify and fix them.
+For a deeper understanding of how weight distribution connects to handling, read the [complete guide to kart weight distribution](/blog/2026/02/complete-guide-kart-weight-distribution/). To understand specific handling symptoms in detail, the [understeer and oversteer guide](/blog/2026/02/understeer-oversteer-weight-distribution/) breaks down the physics. And if you are making basic errors that undermine your data, the [common setup mistakes](/blog/2026/02/common-kart-setup-mistakes/) post will help you identify and fix them.
 
 {% include app-cta.html %}

@@ -130,7 +130,7 @@ Say your three-reading averages come out to:
 
 This kart is running 41/59 front to rear, which is a bit rear-heavy compared to a typical 43/57 target. The left/right split is nearly even at 49.5/50.5, which is good. The cross weight at 48.6% shows a slight diagonal imbalance -- the kart may handle slightly differently turning left versus turning right.
 
-If you want to understand more about what these numbers mean and how to use them, check out our [complete guide to kart weight distribution](/blog/complete-guide-kart-weight-distribution/).
+If you want to understand more about what these numbers mean and how to use them, check out our [complete guide to kart weight distribution](/blog/2026/02/complete-guide-kart-weight-distribution/).
 
 ## Tips for Better Accuracy
 
@@ -140,7 +140,7 @@ If you want to understand more about what these numbers mean and how to use them
 
 **Watch for scale drift.** Some cheap bathroom scales drift slightly over time as the load cell warms up or the battery weakens. If you notice a reading slowly climbing or dropping without anything changing, wait for it to settle or replace the batteries.
 
-**Always scale with the driver.** A bare kart without a driver tells you very little. The driver is the heaviest single component and their position dominates the weight distribution. For more on the full scaling process, see our [step-by-step guide to scaling your racing kart](/blog/how-to-scale-racing-kart/).
+**Always scale with the driver.** A bare kart without a driver tells you very little. The driver is the heaviest single component and their position dominates the weight distribution. For more on the full scaling process, see our [step-by-step guide to scaling your racing kart](/blog/2026/02/how-to-scale-racing-kart/).
 
 **Keep fuel level consistent.** Decide whether you scale with a full tank, half tank, or near-empty. Stick with the same fuel level every time so your measurements are comparable session to session.
 
