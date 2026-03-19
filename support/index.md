@@ -15,7 +15,7 @@ description: Learn how to use KartBalance to calculate kart weight distribution,
   "name": "KartBalance Getting Started Tutorial",
   "description": "Learn how to use KartBalance app for kart weight distribution calculations and chassis balance setup",
   "thumbnailUrl": "https://i.ytimg.com/vi/bjoY0g_og5s/hqdefault.jpg",
-  "uploadDate": "2016-12-01",
+  "uploadDate": "2016-12-01T00:00:00Z",
   "contentUrl": "https://www.youtube.com/watch?v=bjoY0g_og5s",
   "embedUrl": "https://www.youtube.com/embed/bjoY0g_og5s"
 }
