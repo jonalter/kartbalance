@@ -1,7 +1,7 @@
 ---
 layout: default
-title: KartBalance - Support
-description: Learn how to use KartBalance to calculate kart weight distribution, corner weights, and chassis balance. Complete guide with video tutorial and FAQ for karting setup.
+title: Kart Weight Distribution Setup Guide & FAQ | KartBalance
+description: Step-by-step guide to weighing your kart and calculating corner weights. Target percentages, scale tips, and common weight distribution questions answered.
 ---
 ### Support
 

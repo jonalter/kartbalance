@@ -15,25 +15,33 @@ Here is the truth: four bathroom scales from a department store will get you rou
 
 ### Four Identical Digital Bathroom Scales
 
-The key word is identical. Buy four of the same make and model at the same time from the same store. This matters because scales from different manufacturers (or even different production runs of the same model) can have slightly different calibration offsets. When all four scales share the same systematic error, your relative measurements between corners stay valid even if the absolute numbers are off by a pound or two.
+The key word is identical. Buy four of the same make and model at the same time from the same store. Scales from different manufacturers can have slightly different calibration offsets. When all four share the same systematic error, your relative measurements between corners stay valid even if the absolute numbers are off by a pound or two.
 
-Look for digital scales with a capacity of at least 150 lbs (70 kg) per scale. Most standard bathroom scales top out around 300-400 lbs, which is far more than any single corner of a kart will weigh. A loaded kart with driver typically weighs between 300-400 lbs total, so each corner will see somewhere between 40-110 lbs depending on the kart and driver.
+Look for scales with a capacity of at least 150 lbs (70 kg). A loaded kart with driver typically weighs 300-400 lbs total, so each corner will see somewhere between 40-110 lbs.
 
 Avoid analog dial scales. The resolution is poor, they are harder to read consistently, and the needle position changes depending on your viewing angle.
 
 Budget: $15-30 per scale, so $60-120 total for all four. That is a fraction of the cost of dedicated racing scales and money well spent.
 
+### Why Digital Beats Analog
+
+Digital scales give you 0.2 lb resolution. An analog dial gives you half-pound increments at best, and parallax error adds another pound of uncertainty per corner. The analog camp argues they never need batteries, but a $4 battery pack solves that. For kart scaling, digital resolution wins.
+
+### Postal and Shipping Scales
+
+Postal scales offer 0.1 lb or better resolution, closer to dedicated racing scales. The trade-off is capacity -- most max out at 50-75 lbs, and rear corners with a heavy driver can exceed that. If your heaviest corner stays under the limit, postal scales at $20-40 each are worth considering.
+
 ### Four Rigid, Flat Boards
 
-You need a flat platform on top of each scale for the kart wheel to sit on. Without a board, the small tire contact patch sits on one spot of the scale, and many bathroom scales are sensitive to where the load is applied on their surface. A board distributes the load evenly across the scale platform and gives you a more consistent reading.
+You need a flat platform on top of each scale for the kart wheel to sit on. Many bathroom scales are sensitive to where the load is applied, and a board distributes weight evenly across the scale platform for consistent readings.
 
-Cut four squares of 3/4-inch plywood or MDF, roughly 12 x 12 inches (300 x 300mm). Sand the edges so they do not catch on anything. Make sure they are flat -- hold each one up to a straight edge and check for warping. If a board is bowed, the kart wheel will rock on it and the reading will fluctuate.
+Cut four squares of 3/4-inch plywood or MDF, roughly 12 x 12 inches (300 x 300mm). Sand the edges and check for warping with a straight edge. A bowed board lets the wheel rock and the reading will fluctuate.
 
 ### A Level Surface
 
-This is the single most important factor in accurate scaling, regardless of whether you use bathroom scales or $800 professional units. A floor that slopes even half a degree will shift weight toward the downhill side and give you misleading numbers.
+This is the single most important factor in accurate scaling, regardless of equipment. A floor that slopes even half a degree will shift weight toward the downhill side and give you misleading numbers.
 
-A garage floor is usually your best option, but many garages have a slight drainage slope toward the door. Check with a spirit level or a digital level placed in multiple orientations across the area where you plan to scale. If you find a slope, you will need to shim the downhill scales to compensate.
+A garage floor is usually your best option, but many garages slope toward the door for drainage. Check with a spirit level in multiple orientations across your scaling area. If you find a slope, shim the downhill scales to compensate.
 
 ### Shims and Spacers
 
@@ -54,9 +62,7 @@ Find your level spot and sweep it clean. Place each scale where a wheel will sit
 
 ### Step 2: Build Your Scale Platforms
 
-Stack each station identically: scale on the floor, rigid board on top. Press down on each board firmly to zero the scale under the board's weight, or note the board's weight so you can subtract it later. Most digital scales will auto-zero when you step off and back on, so the easiest approach is to place the board, let the scale read the board weight and auto-zero, then confirm it reads zero (or close to it) before rolling the kart on.
-
-Some scales have a tare function -- use it with the board in place so the scale reads only the kart's weight at that corner.
+Stack each station identically: scale on the floor, rigid board on top. The easiest approach is to place the board, let the scale read the board weight and auto-zero, then confirm it reads zero before rolling the kart on. Some scales have a tare function -- use it with the board in place so the scale reads only the kart's weight at that corner.
 
 ### Step 3: Level Everything
 
@@ -93,6 +99,14 @@ Read all four scales and write down the numbers:
 - **RR** -- Right Rear
 
 Here is the important part: **take at least three separate readings.** Have the driver exit the kart, step off the scales, let everything reset, then repeat the process. Three readings averaged together smooth out the variability that bathroom scales introduce. If one reading is wildly different from the other two, throw it out and take a fourth.
+
+## The 180-Degree Rotation Accuracy Check
+
+This is the single most valuable trick for bathroom scale users.
+
+After your initial readings, lift the kart, rotate it 180 degrees, and set it back down so the front is where the rear was. Re-seat the driver and read all four scales again.
+
+Your new LF should match your old RR, your new RF should match your old LR, and so on. If they match within 1-2 lbs, your setup is trustworthy. If they do not, the most common culprit is floor slope, followed by a single scale drifting. Swap scales between positions to isolate the problem. Five extra minutes for this test beats any number of repeated measurements.
 
 ## Calculating Your Weight Distribution
 
@@ -132,6 +146,12 @@ This kart is running 41/59 front to rear, which is a bit rear-heavy compared to 
 
 If you want to understand more about what these numbers mean and how to use them, check out our [complete guide to kart weight distribution](/blog/2026/02/complete-guide-kart-weight-distribution/).
 
+### Building a Baseline and Tracking Changes
+
+Scaling becomes genuinely powerful when you track numbers over time. Establish a baseline: record all four corners along with the date, fuel level, tire pressures, seat position, and ballast locations. From here, every setup change is measurable -- move the seat 10mm, re-scale, and see exactly what shifted. Over a season you build a log that shows what each adjustment does.
+
+A spreadsheet works. A notebook works. The KartBalance app lets you save configurations and compare them side by side. The key is consistency -- same fuel level, same gear, same posture every time.
+
 ## Tips for Better Accuracy
 
 **Zero your scales consistently.** Before every scaling session, place the boards on the scales and let them auto-zero. Confirm each reads 0.0 before rolling the kart on.
@@ -150,15 +170,33 @@ If you want to understand more about what these numbers mean and how to use them
 
 Bathroom scales work, but they are not perfect. Here is what you should know:
 
-**Absolute accuracy is limited.** A bathroom scale might read 62 lbs when the true weight is 60 or 64. The individual reading may be off by a couple of pounds. For meeting class minimum weight requirements, use a certified scale at the track.
+**Absolute accuracy is limited.** A bathroom scale might read 62 lbs when the true weight is 60 or 64. For meeting class minimum weight requirements, use a certified scale at the track.
 
-**Linearity varies.** Bathroom scales are calibrated for human body weight, roughly 100-250 lbs. At the lower end of their range (40-60 lbs, where some kart corners fall), accuracy may decrease. This is another reason to use identical scales -- the error should be consistent across all four, which preserves your ratios even if the absolute numbers are slightly off.
+**Linearity varies.** Bathroom scales are calibrated for body weight (100-250 lbs). At the lower end of their range (40-60 lbs, where some kart corners fall), accuracy may decrease. This is another reason to use identical scales -- the error is consistent across all four, preserving your ratios.
 
-**Repeatability is not perfect.** You may get slightly different numbers each time you scale, which is why averaging multiple readings is essential. Professional scales with strain gauge load cells are more repeatable, but even they benefit from multiple readings.
+**Repeatability is not perfect.** You may get slightly different numbers each time, which is why averaging multiple readings is essential.
 
-**They are not fast.** Professional racing scales with a digital display unit show all four corners simultaneously and update in real time. With bathroom scales, you are reading four separate displays and writing numbers down. It takes longer, and the driver has to sit still through the whole process.
+**They are not fast.** Professional scales show all four corners simultaneously. With bathroom scales, you are reading four separate displays. It takes longer, and the driver has to sit still through the whole process.
 
 **None of these limitations should stop you.** The difference between knowing your weight distribution within a couple of percentage points and not knowing it at all is enormous. Bathroom scales will clearly show you whether your front/rear split is 41/59 or 44/56. They will show you if your left/right balance is two points off. They will show you whether that seat move shifted weight to the front. And that information is what drives better setup decisions.
+
+## Troubleshooting Common Problems
+
+### One Scale Reads Way Off
+
+Swap that scale with one of the others. If the weird reading follows the scale, the unit is bad -- replace it. If the reading stays at the same corner regardless of which scale is there, your floor is not level at that spot or the platform height is off.
+
+### Numbers Change Every Time You Re-Scale
+
+Some variation is normal. If the total changes by more than 2-3 lbs between readings, check for: the driver shifting position, the kart not settling fully (bounce and wait longer), or wheels not landing in the same spot on the boards each time.
+
+### Digital Scale Will Not Register a Light Corner
+
+Some digital scales need a minimum weight (10-15 lbs) to trigger auto-on. On light karts, a front corner might not hit that threshold. Step on the scale to wake it, let it zero, then roll the kart on before it times out. Postal scales with lower auto-on thresholds can also solve this.
+
+### Readings Do Not Pass the 180-Degree Rotation Test
+
+Re-level your surface first -- this is the problem nine times out of ten. Then swap scales between positions to check for a bad unit, and verify your boards are all the same thickness. If the test still fails, your floor may have a localized dip or hump that a spirit level misses. Try a different spot.
 
 ## From Numbers to Faster Lap Times
 
