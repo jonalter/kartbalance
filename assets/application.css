@@ -232,16 +232,27 @@ body > footer {
     body > footer {
       width: 100%;
       text-align: center;
-      padding-bottom: 0; }
-      body > footer li {
-        float: none;
-        display: inline; }
-        body > footer li:first-child {
-          margin-left: 0; }
+      padding: 1.5em 1em;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75em; }
+      body > footer > div:first-child {
+        margin-right: 0; }
       body > footer ul {
         float: none;
         text-align: center;
-        width: 100%; } }
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25em 0.5em; }
+      body > footer li {
+        float: none;
+        display: inline-block; }
+        body > footer li:first-child {
+          margin-left: 0; }
+        body > footer li a {
+          display: inline-block;
+          padding: 0.5em 0.75em; } }
 
 @media all and (max-width: 880px) {
   footer.grater > div {

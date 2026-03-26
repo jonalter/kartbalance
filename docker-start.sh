@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Update rubygems so it can install newer bundler versions
+gem update --system --no-document
+
+# Install the bundler version specified in Gemfile.lock
+BUNDLED_WITH=$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -1 | tr -d ' ')
+gem install bundler:"$BUNDLED_WITH" --no-document
+
 # Install dependencies
 bundle install
 
