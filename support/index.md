@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Kart Weight Distribution Setup Guide & FAQ | KartBalance
-description: Step-by-step guide to weighing your kart and calculating corner weights. Target percentages, scale tips, and common weight distribution questions answered.
+title: "KartBalance App Support & Help | FAQ"
+description: "Get help with the KartBalance iOS app. Getting started tutorial, how to enter corner weights, add and move weights, and frequently asked questions."
+robots: noindex
+permalink: /support/
 ---
 ### Support
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How Weight Distribution Fixes Understeer and Oversteer in Karting"
-description: "Understand how kart weight distribution causes understeer and oversteer, and learn exactly how to shift weight to fix handling problems."
+title: "Fix Kart Understeer and Oversteer With Weight"
+description: "Pushing wide or snapping loose? Learn which way to shift ballast to fix understeer and oversteer at the track — no more guessing between sessions."
 date: 2026-02-24
 categories: [setup]
 tags: [understeer, oversteer, weight-distribution, chassis-balance, handling]

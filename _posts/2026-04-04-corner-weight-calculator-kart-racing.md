@@ -2,7 +2,7 @@
 layout: post
 title: "Corner Weight Calculator for Kart Racing: The Complete Guide to Your Numbers"
 description: "Learn how to calculate kart corner weights, cross weight, and weight distribution percentages. Includes formulas, worked examples, and what your numbers mean."
-date: 2026-03-25
+date: 2026-04-04
 categories: [setup]
 tags: [corner-weights, weight-distribution, calculator, kart-setup, cross-weight, formulas]
 ---
@@ -20,7 +20,7 @@ Corner weights are the individual loads measured at each wheel of the kart with 
 - **LR** -- Left Rear
 - **RR** -- Right Rear
 
-In a car with springs and dampers, poor weight distribution can be masked by suspension tuning. A kart has no suspension. The chassis is the spring, and the four corner weights define how that spring loads in every corner, under every braking zone, and through every acceleration phase. A couple of pounds shifted from one corner to another can change whether the kart rotates cleanly or pushes wide at the apex.
+In a car with springs and dampers, poor weight distribution can be partially masked by suspension tuning. A kart has no suspension. The chassis is the spring, and the four corner weights define how that spring loads in every corner, under every braking zone, and through every acceleration phase. A couple of pounds shifted from one corner to another can change whether the kart rotates cleanly or pushes wide at the apex.
 
 That is why corner weights matter more in karting than in nearly any other form of motorsport. And that is why understanding the calculations behind them -- not just measuring them -- is the difference between making informed setup changes and making guesses.
 
@@ -48,13 +48,13 @@ Here are the five core calculations you can derive from your four corner weight 
 
 > Cross Weight % = (RF + LR) / Total x 100
 
-Cross weight is sometimes called wedge or diagonal weight. It compares the sum of two diagonally opposite corners against total weight.
+Cross weight is sometimes called wedge or diagonal weight. It compares the sum of two diagonally opposite corners against total weight. This single number reveals whether the kart will handle symmetrically in left and right turns.
 
 **Individual Corner as Percentage of Total**
 
 > Corner % = Corner Weight / Total x 100
 
-This tells you what fraction of the total load each individual wheel carries.
+This tells you what fraction of the total load each individual wheel carries. It is useful for spotting outliers -- a single corner that is carrying significantly more or less than expected usually points to a specific problem.
 
 ## A Worked Example: From Scale Readings to Setup Data
 
@@ -149,7 +149,7 @@ Every kart class has a slightly different sweet spot depending on engine power, 
 | Shifter / KZ | 41-43% / 57-59% | 49-51% | 49.5-50.5% |
 | Cadet | 43-45% / 55-57% | 49-51% | 49.5-50.5% |
 
-A few notes on these ranges. Shifter karts tend to run slightly more rear weight because the gearbox mass sits behind the rear axle and the higher horsepower demands more rear traction on exit. Cadets run slightly more front weight because the lighter overall package and lower CG height mean the inside rear needs more help lifting. If you race [LO206](/blog/2026/03/lo206-briggs-206-weight-distribution-deep-dive/) or are comparing [KA100 to X30 setups](/blog/2026/04/ka100-vs-x30-setup-differences-weight-strategies/), those class-specific guides go deeper into the reasoning behind each range.
+A few notes on these ranges. Shifter karts tend to run slightly more rear weight because the gearbox mass sits behind the rear axle and the higher horsepower demands more rear traction on exit. Cadets run slightly more front weight because the lighter overall package and lower center of gravity height mean the inside rear needs more help lifting. If you race [LO206](/blog/2026/03/lo206-briggs-206-weight-distribution-deep-dive/) or are comparing [KA100 to X30 setups](/blog/2026/04/ka100-vs-x30-setup-differences-weight-strategies/), those class-specific guides go deeper into the reasoning behind each range.
 
 Driver weight, track layout, and grip level all shift the ideal target within these ranges. A heavy driver on a tight, low-speed track might push toward the high end of the front percentage range. A light driver at a fast, flowing circuit might sit at the low end. The ranges above give you the window; on-track feedback tells you where to land within it.
 

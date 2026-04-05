@@ -2,6 +2,7 @@
 layout: default
 title: Contact KartBalance Support - Kart Setup Help
 description: Contact KartBalance support for help with kart weight distribution calculations, corner weights, chassis balance setup, or app questions. We're here to help you optimize your racing kart.
+permalink: /contact/
 ---
 ### Contact KartBalance
 

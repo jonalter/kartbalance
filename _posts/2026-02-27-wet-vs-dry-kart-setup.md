@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Wet vs Dry Kart Setup: Adjusting Weight Distribution for Rain Racing"
-description: "How to adjust your kart's weight distribution, chassis setup, and driving approach when racing in wet conditions. Rain setup tips for karters."
+title: "Rain Kart Setup: Weight Changes for Wet Tracks"
+description: "Your dry setup won't work in the rain. Here's exactly how to shift weight, adjust the chassis, and drive differently when the track gets wet."
 date: 2026-02-27
 categories: [setup]
 tags: [wet-setup, rain-racing, weight-distribution, driving-technique]
