@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LO206 / Briggs 206 Weight Distribution Deep Dive"
-description: "A detailed guide to weight distribution and ballast placement for the Briggs & Stratton LO206 kart class. Covers minimum weight, the 43/57 starting point, ballast strategy, and seat positioning for heavier drivers."
+description: "In LO206, weight distribution is your only tuning lever. Get the 43/57 split, ballast placement, and corner weight targets that top 206 racers use."
 date: 2026-03-24
 categories: [setup]
 tags: [lo206, briggs-206, weight-distribution, ballast, sealed-engine, kart-setup]

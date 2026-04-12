@@ -1,7 +1,7 @@
 ---
 layout: "brand"
 title: "EOS Kart Weight Distribution Guide | Setup Tips"
-description: "Complete weight distribution guide for EOS Kart karts. Learn chassis balance tips, setup notes, and corner weight optimization for EOS Kart racing karts."
+description: "EOS Kart corner weight and weight distribution setup guide. Baseline splits for the Titan and Sting, plus ballast tips for this sensitive Italian chassis."
 name: "EOS Kart"
 country: "Italy"
 manufacturer: "EOS Racing Karts"

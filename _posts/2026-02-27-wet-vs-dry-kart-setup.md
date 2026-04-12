@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rain Kart Setup: Weight Changes for Wet Tracks"
-description: "Your dry setup won't work in the rain. Here's exactly how to shift weight, adjust the chassis, and drive differently when the track gets wet."
+description: "Exact weight distribution changes for wet kart racing: how much to shift forward, where to move ballast, and corner weight adjustments for rain setup."
 date: 2026-02-27
 categories: [setup]
 tags: [wet-setup, rain-racing, weight-distribution, driving-technique]
