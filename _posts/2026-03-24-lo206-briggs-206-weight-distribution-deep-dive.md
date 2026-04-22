@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "LO206 / Briggs 206 Weight Distribution Deep Dive"
-description: "In LO206, weight distribution is your only tuning lever. Get the 43/57 split, ballast placement, and corner weight targets that top 206 racers use."
+title: "LO206 Weight Distribution: Ballast Placement & Corner Weight Targets"
+description: "LO206 weight distribution deep dive: 43/57 split, corner weight targets, ballast placement strategies, and seat adjustments for competitive racing."
 date: 2026-03-24
 categories: [setup]
 tags: [lo206, briggs-206, weight-distribution, ballast, sealed-engine, kart-setup]

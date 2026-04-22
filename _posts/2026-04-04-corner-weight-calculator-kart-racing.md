@@ -24,6 +24,236 @@ In a car with springs and dampers, poor weight distribution can be partially mas
 
 That is why corner weights matter more in karting than in nearly any other form of motorsport. And that is why understanding the calculations behind them -- not just measuring them -- is the difference between making informed setup changes and making guesses.
 
+<!-- Corner Weight Calculator Widget -->
+<!-- Placement: After "## What Are Corner Weights?" section, before "## The Corner Weight Formulas" section -->
+<div id="kb-cwc" style="
+  font-family: inherit;
+  background: #f8f9fa;
+  border: 1px solid #e2e6ea;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 2em 0;
+  box-sizing: border-box;
+">
+  <style>
+    #kb-cwc * { box-sizing: border-box; }
+    #kb-cwc h3.kb-title { font-size: 1.1em; font-weight: 700; color: #272635; margin: 0 0 4px 0; letter-spacing: -0.01em; }
+    #kb-cwc p.kb-subtitle { font-size: 0.75em; color: #777; margin: 0 0 20px 0; }
+    #kb-cwc .kb-unit-row { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    #kb-cwc .kb-unit-label { font-size: 0.78em; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.04em; }
+    #kb-cwc .kb-toggle { display: flex; background: #e2e6ea; border-radius: 20px; padding: 2px; gap: 0; }
+    #kb-cwc .kb-toggle button { background: none; border: none; border-radius: 18px; padding: 4px 14px; font-size: 0.8em; font-weight: 600; cursor: pointer; color: #777; transition: background 0.15s, color 0.15s; line-height: 1.4; }
+    #kb-cwc .kb-toggle button.kb-active { background: #272635; color: #fff; }
+    #kb-cwc .kb-toggle button:focus-visible { outline: 2px solid #67a7f7; outline-offset: 1px; }
+    #kb-cwc .kb-inputs { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; gap: 10px 14px; margin-bottom: 18px; }
+    #kb-cwc .kb-field { display: flex; flex-direction: column; gap: 4px; }
+    #kb-cwc .kb-field label { font-size: 0.75em; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.05em; }
+    #kb-cwc .kb-field .kb-input-wrap { display: flex; align-items: center; background: #fff; border: 1.5px solid #ced4da; border-radius: 6px; overflow: hidden; transition: border-color 0.15s; }
+    #kb-cwc .kb-field .kb-input-wrap:focus-within { border-color: #67a7f7; }
+    #kb-cwc .kb-field input[type="number"] { width: 100%; border: none; outline: none; padding: 9px 10px; font-size: 1em; font-family: inherit; color: #272635; background: transparent; -moz-appearance: textfield; }
+    #kb-cwc .kb-field input[type="number"]::-webkit-inner-spin-button, #kb-cwc .kb-field input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; }
+    #kb-cwc .kb-field .kb-unit-suffix { padding: 0 10px 0 4px; font-size: 0.78em; color: #999; white-space: nowrap; user-select: none; }
+    #kb-cwc .kb-field .kb-err { font-size: 0.7em; color: #c0392b; min-height: 1em; }
+    #kb-cwc .kb-calc-btn { display: block; width: 100%; background: #272635; color: #fff; border: none; border-radius: 6px; padding: 12px; font-size: 1em; font-weight: 600; font-family: inherit; cursor: pointer; transition: background 0.15s; margin-bottom: 20px; }
+    #kb-cwc .kb-calc-btn:hover { background: #3a3850; }
+    #kb-cwc .kb-calc-btn:focus-visible { outline: 2px solid #67a7f7; outline-offset: 2px; }
+    #kb-cwc .kb-results { display: none; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+    #kb-cwc .kb-results.kb-visible { display: flex; }
+    #kb-cwc .kb-result-row { background: #fff; border: 1px solid #e2e6ea; border-radius: 6px; padding: 11px 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    #kb-cwc .kb-result-row.kb-result-total { background: #272635; border-color: #272635; }
+    #kb-cwc .kb-result-row.kb-result-total .kb-result-label, #kb-cwc .kb-result-row.kb-result-total .kb-result-value { color: #fff; }
+    #kb-cwc .kb-result-row.kb-flag-warn { border-color: #e67e22; }
+    #kb-cwc .kb-result-row.kb-flag-ok  { border-color: #27ae60; }
+    #kb-cwc .kb-result-label { font-size: 0.82em; font-weight: 600; color: #555; min-width: 90px; }
+    #kb-cwc .kb-result-value { font-size: 1.05em; font-weight: 700; color: #272635; white-space: nowrap; }
+    #kb-cwc .kb-result-interp { font-size: 0.72em; color: #777; text-align: right; flex: 1; }
+    #kb-cwc .kb-result-row.kb-flag-warn .kb-result-interp { color: #c0392b; }
+    #kb-cwc .kb-result-row.kb-flag-ok  .kb-result-interp { color: #27ae60; }
+    #kb-cwc .kb-cta { background: #eaf4ff; border: 1px solid #b3d7f7; border-radius: 6px; padding: 14px 16px; text-align: center; }
+    #kb-cwc .kb-cta p { font-size: 0.82em; color: #444; margin: 0 0 8px 0; line-height: 1.4; }
+    #kb-cwc .kb-cta a { display: inline-block; background: #272635; color: #fff; text-decoration: none; padding: 9px 18px; border-radius: 6px; font-size: 0.82em; font-weight: 600; transition: background 0.15s; }
+    #kb-cwc .kb-cta a:hover { background: #3a3850; }
+    #kb-cwc .kb-cta a:focus-visible { outline: 2px solid #67a7f7; outline-offset: 2px; }
+    @media (max-width: 500px) {
+      #kb-cwc { padding: 18px 16px; }
+      #kb-cwc .kb-inputs { grid-template-columns: 1fr 1fr; gap: 8px 10px; }
+      #kb-cwc .kb-result-row { flex-wrap: wrap; }
+      #kb-cwc .kb-result-interp { text-align: left; flex-basis: 100%; }
+    }
+  </style>
+
+  <h3 class="kb-title">Corner Weight Calculator</h3>
+  <p class="kb-subtitle">Enter your four corner scale readings with driver seated.</p>
+
+  <div class="kb-unit-row">
+    <span class="kb-unit-label">Units</span>
+    <div class="kb-toggle" role="group" aria-label="Weight unit">
+      <button id="kb-btn-lbs" class="kb-active" onclick="kbSetUnit('lbs')" aria-pressed="true">lbs</button>
+      <button id="kb-btn-kg"  onclick="kbSetUnit('kg')"  aria-pressed="false">kg</button>
+    </div>
+  </div>
+
+  <form id="kb-form" onsubmit="kbCalc(event)" novalidate>
+    <div class="kb-inputs">
+      <div class="kb-field">
+        <label for="kb-lf">Left Front (LF)</label>
+        <div class="kb-input-wrap">
+          <input type="number" id="kb-lf" name="lf" min="0" max="500" step="0.1" placeholder="0" inputmode="decimal" autocomplete="off">
+          <span class="kb-unit-suffix" id="kb-suf-lf">lbs</span>
+        </div>
+        <span class="kb-err" id="kb-err-lf" aria-live="polite"></span>
+      </div>
+      <div class="kb-field">
+        <label for="kb-rf">Right Front (RF)</label>
+        <div class="kb-input-wrap">
+          <input type="number" id="kb-rf" name="rf" min="0" max="500" step="0.1" placeholder="0" inputmode="decimal" autocomplete="off">
+          <span class="kb-unit-suffix" id="kb-suf-rf">lbs</span>
+        </div>
+        <span class="kb-err" id="kb-err-rf" aria-live="polite"></span>
+      </div>
+      <div class="kb-field">
+        <label for="kb-lr">Left Rear (LR)</label>
+        <div class="kb-input-wrap">
+          <input type="number" id="kb-lr" name="lr" min="0" max="500" step="0.1" placeholder="0" inputmode="decimal" autocomplete="off">
+          <span class="kb-unit-suffix" id="kb-suf-lr">lbs</span>
+        </div>
+        <span class="kb-err" id="kb-err-lr" aria-live="polite"></span>
+      </div>
+      <div class="kb-field">
+        <label for="kb-rr">Right Rear (RR)</label>
+        <div class="kb-input-wrap">
+          <input type="number" id="kb-rr" name="rr" min="0" max="500" step="0.1" placeholder="0" inputmode="decimal" autocomplete="off">
+          <span class="kb-unit-suffix" id="kb-suf-rr">lbs</span>
+        </div>
+        <span class="kb-err" id="kb-err-rr" aria-live="polite"></span>
+      </div>
+    </div>
+
+    <button type="submit" class="kb-calc-btn">Calculate</button>
+  </form>
+
+  <div class="kb-results" id="kb-results" role="region" aria-label="Calculation results">
+    <div class="kb-result-row kb-result-total" id="kb-row-total">
+      <span class="kb-result-label">Total Weight</span>
+      <span class="kb-result-value" id="kb-val-total">—</span>
+      <span class="kb-result-interp" id="kb-int-total"></span>
+    </div>
+    <div class="kb-result-row" id="kb-row-fr">
+      <span class="kb-result-label">Front / Rear</span>
+      <span class="kb-result-value" id="kb-val-fr">—</span>
+      <span class="kb-result-interp" id="kb-int-fr"></span>
+    </div>
+    <div class="kb-result-row" id="kb-row-lr">
+      <span class="kb-result-label">Left / Right</span>
+      <span class="kb-result-value" id="kb-val-lr">—</span>
+      <span class="kb-result-interp" id="kb-int-lr"></span>
+    </div>
+    <div class="kb-result-row" id="kb-row-cw">
+      <span class="kb-result-label">Cross Weight</span>
+      <span class="kb-result-value" id="kb-val-cw">—</span>
+      <span class="kb-result-interp" id="kb-int-cw"></span>
+    </div>
+  </div>
+
+  <div class="kb-cta">
+    <p>At the track, your setup changes between every session. KartBalance runs all of this instantly on your phone — no signal needed.</p>
+    <a href="https://apps.apple.com/us/app/kartbalance/id1151974965" rel="nofollow external" target="_blank">Download KartBalance for iOS</a>
+  </div>
+</div>
+
+<script>
+(function() {
+  var kbUnit = 'lbs';
+  var kbMax  = { lbs: 500, kg: 227 };
+
+  window.kbSetUnit = function(u) {
+    var prev = kbUnit;
+    kbUnit = u;
+    document.getElementById('kb-btn-lbs').classList.toggle('kb-active', u === 'lbs');
+    document.getElementById('kb-btn-kg').classList.toggle('kb-active',  u === 'kg');
+    document.getElementById('kb-btn-lbs').setAttribute('aria-pressed', u === 'lbs');
+    document.getElementById('kb-btn-kg').setAttribute('aria-pressed',  u === 'kg');
+    var ids = ['lf','rf','lr','rr'];
+    ids.forEach(function(id) { document.getElementById('kb-suf-' + id).textContent = kbUnit; });
+    ids.forEach(function(id) {
+      var el = document.getElementById('kb-' + id);
+      var v = parseFloat(el.value);
+      if (!isNaN(v) && v > 0) {
+        if (prev === 'lbs' && u === 'kg') { el.value = (v * 0.453592).toFixed(1); }
+        else if (prev === 'kg' && u === 'lbs') { el.value = (v * 2.20462).toFixed(1); }
+      }
+      el.setAttribute('max', kbMax[kbUnit]);
+    });
+    document.getElementById('kb-results').classList.remove('kb-visible');
+  };
+
+  window.kbCalc = function(e) {
+    e.preventDefault();
+    var ids = ['lf','rf','lr','rr'];
+    var vals = {};
+    var valid = true;
+    ids.forEach(function(id) {
+      var el = document.getElementById('kb-' + id);
+      var errEl = document.getElementById('kb-err-' + id);
+      var v = parseFloat(el.value);
+      errEl.textContent = '';
+      if (el.value === '' || isNaN(v)) { errEl.textContent = 'Enter a number'; valid = false; }
+      else if (v < 0) { errEl.textContent = 'Must be 0 or more'; valid = false; }
+      else if (v > kbMax[kbUnit]) { errEl.textContent = 'Max ' + kbMax[kbUnit] + ' ' + kbUnit; valid = false; }
+      else { vals[id] = v; }
+    });
+    if (!valid) return;
+    var lf = vals.lf, rf = vals.rf, lr = vals.lr, rr = vals.rr;
+    var total = lf + rf + lr + rr;
+    if (total === 0) {
+      ['lf','rf','lr','rr'].forEach(function(id) { document.getElementById('kb-err-' + id).textContent = 'All zeros — enter your scale readings'; });
+      return;
+    }
+    var frontPct = (lf + rf) / total * 100;
+    var rearPct  = (lr + rr) / total * 100;
+    var leftPct  = (lf + lr) / total * 100;
+    var rightPct = (rf + rr) / total * 100;
+    var cwPct    = (rf + lr) / total * 100;
+    document.getElementById('kb-val-total').textContent = total.toFixed(1) + ' ' + kbUnit;
+    document.getElementById('kb-int-total').textContent = '';
+    document.getElementById('kb-val-fr').textContent = frontPct.toFixed(1) + '% / ' + rearPct.toFixed(1) + '%';
+    var frInterp, frFlag;
+    if (frontPct < 40) { frInterp = 'Very rear-heavy — likely push in slow corners'; frFlag = 'warn'; }
+    else if (frontPct < 42) { frInterp = 'Rear-biased — less front rotation'; frFlag = 'warn'; }
+    else if (frontPct <= 44) { frInterp = 'In target range (42–44% front)'; frFlag = 'ok'; }
+    else if (frontPct <= 46) { frInterp = 'Front-heavy — may snap loose on exit'; frFlag = 'warn'; }
+    else { frInterp = 'Very front-heavy — high oversteer risk'; frFlag = 'warn'; }
+    kbSetFlag('kb-row-fr', 'kb-int-fr', frInterp, frFlag);
+    document.getElementById('kb-val-lr').textContent = leftPct.toFixed(1) + '% / ' + rightPct.toFixed(1) + '%';
+    var lrDiff = Math.abs(leftPct - 50);
+    var lrInterp, lrFlag;
+    if (lrDiff <= 1) { lrInterp = 'Balanced — good for mixed-turn circuits'; lrFlag = 'ok'; }
+    else if (lrDiff <= 2) { lrInterp = leftPct > 50 ? 'Slight left bias — normal if engine is left-side' : 'Slight right bias — normal for right-engine layout'; lrFlag = 'ok'; }
+    else if (lrDiff <= 3) { lrInterp = 'Off-center — check seat and ballast position'; lrFlag = 'warn'; }
+    else { lrInterp = 'Significant imbalance — inspect seat, ballast, or chassis'; lrFlag = 'warn'; }
+    kbSetFlag('kb-row-lr', 'kb-int-lr', lrInterp, lrFlag);
+    document.getElementById('kb-val-cw').textContent = cwPct.toFixed(1) + '%';
+    var cwDiff = Math.abs(cwPct - 50);
+    var cwInterp, cwFlag;
+    if (cwDiff <= 0.5) { cwInterp = 'Neutral — handles symmetrically left and right'; cwFlag = 'ok'; }
+    else if (cwDiff <= 1.0) { cwInterp = cwPct > 50 ? 'Slight RF+LR bias — minor left-turn tendency' : 'Slight LF+RR bias — minor right-turn tendency'; cwFlag = 'ok'; }
+    else if (cwDiff <= 2.0) { cwInterp = cwPct > 50 ? 'RF+LR heavy — kart grips better in one direction' : 'LF+RR heavy — kart grips better in one direction'; cwFlag = 'warn'; }
+    else { cwInterp = cwPct > 50 ? 'High cross weight — strong directional imbalance' : 'Low cross weight — strong directional imbalance'; cwFlag = 'warn'; }
+    kbSetFlag('kb-row-cw', 'kb-int-cw', cwInterp, cwFlag);
+    document.getElementById('kb-results').classList.add('kb-visible');
+    document.getElementById('kb-results').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  };
+
+  function kbSetFlag(rowId, interpId, text, flag) {
+    var row = document.getElementById(rowId);
+    row.classList.remove('kb-flag-ok', 'kb-flag-warn');
+    if (flag) row.classList.add('kb-flag-' + flag);
+    document.getElementById(interpId).textContent = text;
+  }
+})();
+</script>
+<!-- End Corner Weight Calculator Widget -->
+
 ## The Corner Weight Formulas
 
 Here are the five core calculations you can derive from your four corner weight readings. These are the formulas that turn raw scale numbers into actionable setup data.

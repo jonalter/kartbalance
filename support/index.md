@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "KartBalance App Support & Help | FAQ"
-description: "Get help with the KartBalance iOS app. Getting started tutorial, how to enter corner weights, add and move weights, and frequently asked questions."
-robots: noindex
+title: "KartBalance Weight Distribution Calculator - Setup Help & FAQ"
+description: "Learn how to use the KartBalance weight distribution calculator. Corner weight setup, ballast placement, and FAQ for racing kart chassis tuning."
 permalink: /support/
 ---
 ### Support

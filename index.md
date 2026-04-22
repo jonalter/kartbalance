@@ -1,6 +1,7 @@
 ---
 layout: home
-title: KartBalance - Weight distribution calculator
+title: Corner Weight & Cross Weight Calculator for Karts
+description: Calculate corner weights, cross weight, and weight distribution for racing karts. Drag-and-drop kart setup calculator with visual chassis diagram.
 ---
 # Professional Kart Weight Distribution Calculator
 
