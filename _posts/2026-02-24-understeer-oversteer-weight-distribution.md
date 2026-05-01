@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Kart Weight Distribution Guide: Fix Understeer & Oversteer"
-description: "Diagnose kart understeer and oversteer using weight distribution. Learn corner weight analysis and ballast placement strategies to fix handling balance."
+title: "Fix Kart Understeer and Oversteer with Weight Distribution"
+description: "Diagnose kart understeer and oversteer at the track and fix them by shifting weight, moving the seat, and adjusting ballast. Step-by-step changes with the why behind each one."
 date: 2026-02-24
 categories: [setup]
 tags: [understeer, oversteer, weight-distribution, chassis-balance, handling]

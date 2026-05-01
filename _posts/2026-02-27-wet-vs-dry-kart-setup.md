@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Wet Kart Setup: Weight Distribution Changes & Ballast Strategy"
-description: "Weight distribution adjustments for wet kart racing: shift forward, raise CG, and ballast placement strategies. Step-by-step wet setup guide."
+title: "Wet Kart Setup: Weight, Ballast and CG for Rain Racing"
+description: "What to change about your kart's weight distribution when the track turns wet: shift 1-2 points forward, raise the CG, and where to move ballast. Concrete numbers, not just principles."
 date: 2026-02-27
 categories: [setup]
 tags: [wet-setup, rain-racing, weight-distribution, driving-technique]

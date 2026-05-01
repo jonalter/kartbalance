@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "LO206 Weight Distribution: Ballast Placement & Corner Weight Targets"
-description: "LO206 weight distribution deep dive: 43/57 split, corner weight targets, ballast placement strategies, and seat adjustments for competitive racing."
+title: "LO206 Weight Distribution: 43/57 Split, Ballast & Corner Weights"
+description: "Briggs LO206 setup: target 43% front, where to position ballast, and how to dial corner weights for tight or flowing tracks. Practical settings for senior and junior weights."
 date: 2026-03-24
 categories: [setup]
 tags: [lo206, briggs-206, weight-distribution, ballast, sealed-engine, kart-setup]

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "KartBalance Weight Distribution Calculator - Setup Help & FAQ"
-description: "Learn how to use the KartBalance weight distribution calculator. Corner weight setup, ballast placement, and FAQ for racing kart chassis tuning."
+title: "KartBalance Help: How to Use the Kart Weight Distribution App"
+description: "Quick start for the KartBalance app: how to weigh your kart, set corner weights, and dial in a 43/57 front/rear distribution. Tutorial video and FAQ for new users."
 permalink: /support/
 ---
 ### Support
