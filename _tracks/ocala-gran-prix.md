@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Ocala Gran Prix | Balance Calculator & Tips"
+title: "Kart Weight Setup for Ocala Gran Prix"
 description: "Optimize your kart weight distribution for Ocala Gran Prix in Ocala, FL. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner weights."
 name: "Ocala Gran Prix"
 location: "Ocala, FL"

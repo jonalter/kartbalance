@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Whiteland Raceway Park | Balance Calculator & Tips"
+title: "Kart Weight Setup for Whiteland Raceway Park"
 description: "Optimize your kart weight distribution for Whiteland Raceway Park in Whiteland, IN. Setup tips for this outdoor asphalt track. Use KartBalance for precise corne"
 name: "Whiteland Raceway Park"
 location: "Whiteland, IN"

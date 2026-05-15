@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Birel ART Kart Weight Distribution Guide | Setup Tips"
+title: "Birel ART Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Birel ART karts. Learn chassis balance tips, setup notes, and corner weight optimization for Birel ART racing karts."
 name: "Birel ART"
 country: "Italy"

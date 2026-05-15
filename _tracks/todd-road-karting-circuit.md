@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Todd Road Karting Circuit | Balance Calculator & Tips"
+title: "Kart Weight Setup for Todd Road Karting Circuit"
 description: "Optimize your kart weight distribution for Todd Road Karting Circuit in Port Melbourne, Australia. Setup tips for this outdoor asphalt track."
 name: "Todd Road Karting Circuit"
 location: "Port Melbourne, Australia"

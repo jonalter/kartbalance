@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "CompKart Weight Distribution Guide | Setup Tips"
+title: "CompKart Weight Distribution Guide"
 description: "Complete weight distribution guide for CompKart karts. Learn chassis balance tips, setup notes, and corner weight optimization for CompKart racing karts."
 name: "CompKart"
 country: "Italy"

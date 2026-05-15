@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Autobahn Indoor Speedway Memphis | Balance Calculator & Tips"
+title: "Kart Weight Setup for Autobahn Indoor Speedway Memphis"
 description: "Optimize your kart weight distribution for Autobahn Indoor Speedway Memphis in Memphis, TN. Setup tips for this indoor concrete track. Use KartBalance for preci"
 name: "Autobahn Indoor Speedway Memphis"
 location: "Memphis, TN"

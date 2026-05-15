@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Exprit Kart Weight Distribution Guide | Setup Tips"
+title: "Exprit Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Exprit karts. Learn chassis balance tips, setup notes, and corner weight optimization for Exprit racing karts."
 name: "Exprit"
 country: "Italy"

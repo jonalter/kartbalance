@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for New Castle Motorsports Park | Balance Calculator & Tips"
+title: "Kart Weight Setup for New Castle Motorsports Park"
 description: "Optimize your kart weight distribution for New Castle Motorsports Park in New Castle, IN. Setup tips for this outdoor asphalt track. Use KartBalance for precise"
 name: "New Castle Motorsports Park"
 location: "New Castle, IN"

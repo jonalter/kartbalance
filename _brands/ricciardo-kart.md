@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Ricciardo Kart Weight Distribution Guide | Setup Tips"
+title: "Ricciardo Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Ricciardo Kart karts. Learn chassis balance tips, setup notes, and corner weight optimization for Ricciardo Kart racing k"
 name: "Ricciardo Kart"
 country: "Australia"

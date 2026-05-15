@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Orlando Kart Center | Balance Calculator & Tips"
+title: "Kart Weight Setup for Orlando Kart Center"
 description: "Optimize your kart weight distribution for Orlando Kart Center in Orlando, FL. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner wei"
 name: "Orlando Kart Center"
 location: "Orlando, FL"

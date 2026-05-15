@@ -101,4 +101,63 @@ If your numbers are outside these ranges, addressing the weight distribution sho
 
 Weight distribution will not solve every handling problem, but getting it wrong will cause handling problems that nothing else can fix. Measure it, understand it, and use it as the starting point for every setup session.
 
+## Frequently Asked Questions
+
+### What causes a kart to understeer?
+
+Kart understeer is usually caused by too much rear weight (often above 58% rear), too little front weight, low ballast that prevents enough load transfer, or cross weight imbalance. The mechanical result is that the inside rear wheel does not lift enough through the corner, so the kart cannot rotate and the front tires push wide.
+
+### How do I fix kart oversteer with weight distribution?
+
+To fix oversteer, slide the seat back 10mm and re-scale, add ballast on the rear of the frame or seat back, and consider lowering the seat to reduce load transfer. If oversteer develops mid-session, the cause may be fuel burn from a rear-mounted tank — set up slightly rear-heavy to compensate.
+
+### What is the ideal weight distribution for a sprint kart?
+
+For most sprint kart classes on standard circuits, target 42-44% front and 56-58% rear, with left/right and cross weight as close to 50/50 as possible. Specific classes and tracks shift these targets — tight tracks favor more front weight for rotation, while flowing tracks favor more rear weight for exit stability.
+
+### Why does my kart understeer in one direction but oversteer in the other?
+
+Direction-dependent handling means your left/right weight balance is off. Even a 51/49 split is enough to feel on track. Check your scale numbers and correct by shifting the seat laterally if your chassis allows it, or by moving ballast from the heavy side to the light side.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What causes a kart to understeer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kart understeer is usually caused by too much rear weight (often above 58% rear), too little front weight, low ballast that prevents enough load transfer, or cross weight imbalance. The mechanical result is that the inside rear wheel does not lift enough through the corner, so the kart cannot rotate and the front tires push wide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I fix kart oversteer with weight distribution?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To fix oversteer, slide the seat back 10mm and re-scale, add ballast on the rear of the frame or seat back, and consider lowering the seat to reduce load transfer. If oversteer develops mid-session, the cause may be fuel burn from a rear-mounted tank — set up slightly rear-heavy to compensate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ideal weight distribution for a sprint kart?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most sprint kart classes on standard circuits, target 42-44% front and 56-58% rear, with left/right and cross weight as close to 50/50 as possible. Specific classes and tracks shift these targets — tight tracks favor more front weight for rotation, while flowing tracks favor more rear weight for exit stability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my kart understeer in one direction but oversteer in the other?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Direction-dependent handling means your left/right weight balance is off. Even a 51/49 split is enough to feel on track. Check your scale numbers and correct by shifting the seat laterally if your chassis allows it, or by moving ballast from the heavy side to the light side."
+      }
+    }
+  ]
+}
+</script>
+
 {% include app-cta.html %}

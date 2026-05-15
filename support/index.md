@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "KartBalance Help: How to Use the Kart Weight Distribution App"
+title: "Help &amp; FAQ: Using the Kart Weight Distribution App"
 description: "Quick start for the KartBalance app: how to weigh your kart, set corner weights, and dial in a 43/57 front/rear distribution. Tutorial video and FAQ for new users."
 permalink: /support/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Sonoma Raceway Karting | Balance Calculator & Tips"
+title: "Kart Weight Setup for Sonoma Raceway Karting"
 description: "Optimize your kart weight distribution for Sonoma Raceway Karting in Sonoma, CA. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner w"
 name: "Sonoma Raceway Karting"
 location: "Sonoma, CA"

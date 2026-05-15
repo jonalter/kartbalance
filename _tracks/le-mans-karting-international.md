@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Le Mans Karting International | Balance Calculator & Tips"
+title: "Kart Weight Setup for Le Mans Karting International"
 description: "Optimize your kart weight distribution for Le Mans Karting International in Le Mans, France. Setup tips for this outdoor asphalt track. Use KartBalance for prec"
 name: "Le Mans Karting International"
 location: "Le Mans, France"

@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Zanardi Kart Weight Distribution Guide | Setup Tips"
+title: "Zanardi Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Zanardi karts. Learn chassis balance tips, setup notes, and corner weight optimization for Zanardi racing karts."
 name: "Zanardi"
 country: "Italy"

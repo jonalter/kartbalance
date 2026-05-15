@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for MRP Motorsport Ranch Park | Balance Calculator & Tips"
+title: "Kart Weight Setup for MRP Motorsport Ranch Park"
 description: "Optimize your kart weight distribution for MRP Motorsport Ranch Park in Cresson, TX. Setup tips for this outdoor asphalt track. Use KartBalance for precise corn"
 name: "MRP Motorsport Ranch Park"
 location: "Cresson, TX"

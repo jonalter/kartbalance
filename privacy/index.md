@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Privacy Policy - KartBalance Kart Weight Distribution App
+title: Privacy Policy
 description: KartBalance privacy policy. We don't collect your data. Your kart weight distribution calculations and setup configurations stay private on your device.
 permalink: /privacy/
 ---

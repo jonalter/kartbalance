@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Alpha Karting Weight Distribution Guide | Setup Tips"
+title: "Alpha Karting Weight Distribution Guide"
 description: "Complete weight distribution guide for Alpha Karting karts. Learn chassis balance tips, setup notes, and corner weight optimization for Alpha Karting racing kar"
 name: "Alpha Karting"
 country: "France"

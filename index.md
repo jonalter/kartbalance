@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Corner Weight & Cross Weight Calculator for Karts
-description: Calculate corner weights, cross weight, and weight distribution for racing karts. Drag-and-drop kart setup calculator with visual chassis diagram.
+title: Kart Cross Weight & Corner Weight Calculator
+description: Free iOS app for racing kart cross weight, corner weights, and chassis balance. Drag-and-drop visual setup. Works offline at the track.
 ---
 # Professional Kart Weight Distribution Calculator
 
@@ -60,6 +60,17 @@ Whether you're a competitive kart racer, mechanic, or team manager, KartBalance 
 <h2 style="color: #333;">Why Kart Weight Distribution Matters</h2>
 
 Proper chassis balance is critical for competitive karting performance. Too much front weight causes understeer. Too much rear weight leads to oversteer. KartBalance takes the guesswork out of weight distribution calculations, helping you find the perfect setup faster.
+
+</div>
+
+<div class="content-section" markdown="1">
+<h2 style="color: #333;">Popular Setup Guides</h2>
+
+Browse our most-read articles on dialing in kart weight distribution:
+
+- [LO206 weight distribution: 43/57 split, ballast and corner weights](/blog/2026/03/lo206-briggs-206-weight-distribution-deep-dive/) — the deep dive on the most popular class in North American karting
+- [Fix kart understeer and oversteer with weight distribution](/blog/2026/02/understeer-oversteer-weight-distribution/) — diagnose handling problems and fix them at the track
+- [Wet kart setup: weight, ballast and CG for rain racing](/blog/2026/02/wet-vs-dry-kart-setup/) — concrete numbers for what to change when the track turns wet
 
 </div>
 

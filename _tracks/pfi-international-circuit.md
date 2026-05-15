@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for PFi International Circuit | Balance Calculator & Tips"
+title: "Kart Weight Setup for PFi International Circuit"
 description: "Optimize your kart weight distribution for PFi International Circuit in Grantham, England. Setup tips for this outdoor asphalt track. Use KartBalance for precis"
 name: "PFi International Circuit"
 location: "Grantham, England"

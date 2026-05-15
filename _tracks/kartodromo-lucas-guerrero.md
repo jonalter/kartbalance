@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Kartodromo Lucas Guerrero | Balance Calculator & Tips"
+title: "Kart Weight Setup for Kartodromo Lucas Guerrero"
 description: "Optimize your kart weight distribution for Kartodromo Lucas Guerrero in Valencia, Spain. Setup tips for this outdoor asphalt track. Use KartBalance for precise "
 name: "Kartodromo Lucas Guerrero"
 location: "Valencia, Spain"

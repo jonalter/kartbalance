@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "FA Kart Weight Distribution Guide | Setup Tips"
+title: "FA Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for FA Kart karts. Learn chassis balance tips, setup notes, and corner weight optimization for FA Kart racing karts."
 name: "FA Kart"
 country: "Italy"

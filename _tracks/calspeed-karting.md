@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for CalSpeed Karting | Balance Calculator & Tips"
+title: "Kart Weight Setup for CalSpeed Karting"
 description: "Optimize your kart weight distribution for CalSpeed Karting in Fontana, CA. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner weight"
 name: "CalSpeed Karting"
 location: "Fontana, CA"

@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Kosmic Kart Weight Distribution Guide | Setup Tips"
+title: "Kosmic Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Kosmic karts. Learn chassis balance tips, setup notes, and corner weight optimization for Kosmic racing karts."
 name: "Kosmic"
 country: "Italy"

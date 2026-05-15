@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for GoPro Motorplex | Balance Calculator & Tips"
+title: "Kart Weight Setup for GoPro Motorplex"
 description: "Optimize your kart weight distribution for GoPro Motorplex in Mooresville, NC. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner wei"
 name: "GoPro Motorplex"
 location: "Mooresville, NC"

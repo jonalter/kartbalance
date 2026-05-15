@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Circuito Internazionale Napoli | Balance Calculator & Tips"
+title: "Kart Weight Setup for Circuito Internazionale Napoli"
 description: "Optimize your kart weight distribution for Circuito Internazionale Napoli in Sarno, Italy. Setup tips for this outdoor asphalt track. Use KartBalance for precis"
 name: "Circuito Internazionale Napoli"
 location: "Sarno, Italy"

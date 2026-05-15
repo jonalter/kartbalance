@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Energy Corse Kart Weight Distribution Guide | Setup Tips"
+title: "Energy Corse Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Energy Corse karts. Learn chassis balance tips, setup notes, and corner weight optimization for Energy Corse racing karts"
 name: "Energy Corse"
 country: "Italy"

@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Kart Republic Weight Distribution Guide | Setup Tips"
+title: "Kart Republic Weight Distribution Guide"
 description: "Complete weight distribution guide for Kart Republic karts. Learn chassis balance tips, setup notes, and corner weight optimization for Kart Republic racing kar"
 name: "Kart Republic"
 country: "Italy"

@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Intrepid Kart Weight Distribution Guide | Setup Tips"
+title: "Intrepid Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Intrepid karts. Learn chassis balance tips, setup notes, and corner weight optimization for Intrepid racing karts."
 name: "Intrepid"
 country: "Italy"

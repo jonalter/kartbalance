@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Praga Kart Weight Distribution Guide | Setup Tips"
+title: "Praga Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Praga karts. Learn chassis balance tips, setup notes, and corner weight optimization for Praga racing karts."
 name: "Praga"
 country: "Czech Republic"

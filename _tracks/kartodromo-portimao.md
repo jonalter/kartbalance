@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Rotax MAX Challenge Grand Finals Venue - Portimao | Balance Calculator & Tips"
+title: "Kart Weight Setup for Rotax MAX Challenge Grand Finals Venue - Portimao"
 description: "Optimize your kart weight distribution for Rotax MAX Challenge Grand Finals Venue - Portimao in Portimao, Portugal. Setup tips for this outdoor asphalt track."
 name: "Rotax MAX Challenge Grand Finals Venue - Portimao"
 location: "Portimao, Portugal"

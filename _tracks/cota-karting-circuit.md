@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for COTA Karting Circuit | Balance Calculator & Tips"
+title: "Kart Weight Setup for COTA Karting Circuit"
 description: "Optimize your kart weight distribution for COTA Karting Circuit in Austin, TX. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner wei"
 name: "COTA Karting Circuit"
 location: "Austin, TX"

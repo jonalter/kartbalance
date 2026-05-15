@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Eastern Creek Kart Track | Balance Calculator & Tips"
+title: "Kart Weight Setup for Eastern Creek Kart Track"
 description: "Optimize your kart weight distribution for Eastern Creek Kart Track in Sydney, Australia. Setup tips for this outdoor asphalt track. Use KartBalance for precise"
 name: "Eastern Creek Kart Track"
 location: "Sydney, Australia"

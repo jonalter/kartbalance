@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Genk Karting Circuit | Balance Calculator & Tips"
+title: "Kart Weight Setup for Genk Karting Circuit"
 description: "Optimize your kart weight distribution for Genk Karting Circuit in Genk, Belgium. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner "
 name: "Genk Karting Circuit"
 location: "Genk, Belgium"

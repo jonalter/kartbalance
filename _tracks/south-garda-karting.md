@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for South Garda Karting | Balance Calculator & Tips"
+title: "Kart Weight Setup for South Garda Karting"
 description: "Optimize your kart weight distribution for South Garda Karting in Lonato del Garda, Italy. Setup tips for this outdoor asphalt track. Use KartBalance for precis"
 name: "South Garda Karting"
 location: "Lonato del Garda, Italy"

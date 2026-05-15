@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "Redspeed Kart Weight Distribution Guide | Setup Tips"
+title: "Redspeed Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for Redspeed karts. Learn chassis balance tips, setup notes, and corner weight optimization for Redspeed racing karts."
 name: "Redspeed"
 country: "Australia"

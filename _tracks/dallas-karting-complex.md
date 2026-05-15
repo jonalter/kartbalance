@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Dallas Karting Complex | Balance Calculator & Tips"
+title: "Kart Weight Setup for Dallas Karting Complex"
 description: "Optimize your kart weight distribution for Dallas Karting Complex in Caddo Mills, TX. Setup tips for this outdoor asphalt track. Use KartBalance for precise cor"
 name: "Dallas Karting Complex"
 location: "Caddo Mills, TX"

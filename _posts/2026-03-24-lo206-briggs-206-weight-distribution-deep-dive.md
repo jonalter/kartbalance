@@ -103,4 +103,63 @@ From this baseline, make single-variable changes based on how the kart feels on 
 
 In a class where everyone has the same engine, the details matter. Weight distribution is the biggest detail of all.
 
+## Frequently Asked Questions
+
+### What is the ideal weight distribution for an LO206 kart?
+
+Most competitive LO206 karts run between 42.5% and 44% front, with 43% front being the most common starting point. The narrow LO206 power band makes corner exit traction critical, so you generally want enough rear weight to put power down cleanly. Tight tracks favor 44% front for rotation; flowing tracks favor 42.5% front for exit stability.
+
+### What is the minimum weight for LO206 Senior and Junior?
+
+LO206 Senior minimum weight is 340 lbs (kart, driver, and gear combined). LO206 Junior minimum weight is 290 lbs. Both are checked at post-race tech inspection, so build in a 1-2 lb safety margin to account for fuel burn during the race.
+
+### Where should I mount ballast on an LO206 kart?
+
+Mount the bulk of your ballast low — under the seat or on the floor pan — for a stable, consistent baseline. Reserve about 25-30% of your ballast on the seat struts as a tuning variable that can be repositioned between sessions to adjust rotation and load transfer. This combination gives you both stability and adjustability.
+
+### How can heavier drivers tune weight distribution without ballast?
+
+Heavier drivers (200+ lbs in gear) often run at or above the 340 lb minimum with no ballast, so seat position becomes the primary tuning tool. Adjust seat fore/aft, height, tilt, and lateral position to shift weight distribution. A single-hole seat position change can shift front percentage by a full point — measure with KartBalance before bolting anything down.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the ideal weight distribution for an LO206 kart?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most competitive LO206 karts run between 42.5% and 44% front, with 43% front being the most common starting point. The narrow LO206 power band makes corner exit traction critical, so you generally want enough rear weight to put power down cleanly. Tight tracks favor 44% front for rotation; flowing tracks favor 42.5% front for exit stability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the minimum weight for LO206 Senior and Junior?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LO206 Senior minimum weight is 340 lbs (kart, driver, and gear combined). LO206 Junior minimum weight is 290 lbs. Both are checked at post-race tech inspection, so build in a 1-2 lb safety margin to account for fuel burn during the race."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where should I mount ballast on an LO206 kart?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mount the bulk of your ballast low — under the seat or on the floor pan — for a stable, consistent baseline. Reserve about 25-30% of your ballast on the seat struts as a tuning variable that can be repositioned between sessions to adjust rotation and load transfer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can heavier drivers tune weight distribution without ballast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Heavier drivers (200+ lbs in gear) often run at or above the 340 lb minimum with no ballast, so seat position becomes the primary tuning tool. Adjust seat fore/aft, height, tilt, and lateral position to shift weight distribution. A single-hole seat position change can shift front percentage by a full point."
+      }
+    }
+  ]
+}
+</script>
+
 {% include app-cta.html %}

@@ -1,6 +1,6 @@
 ---
 layout: "brand"
-title: "CRG Kart Weight Distribution Guide | Setup Tips"
+title: "CRG Kart Weight Distribution Guide"
 description: "Complete weight distribution guide for CRG karts. Learn chassis balance tips, setup notes, and corner weight optimization for CRG racing karts."
 name: "CRG"
 country: "Italy"

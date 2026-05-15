@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for RPM Raceway | Balance Calculator & Tips"
+title: "Kart Weight Setup for RPM Raceway"
 description: "Optimize your kart weight distribution for RPM Raceway in Jersey City, NJ. Setup tips for this indoor concrete track. Use KartBalance for precise corner weights"
 name: "RPM Raceway"
 location: "Jersey City, NJ"

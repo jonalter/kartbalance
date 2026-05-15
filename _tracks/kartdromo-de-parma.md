@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Kartdromo de Parma | Balance Calculator & Tips"
+title: "Kart Weight Setup for Kartdromo de Parma"
 description: "Optimize your kart weight distribution for Kartdromo de Parma in Parma, Italy. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner wei"
 name: "Kartdromo de Parma"
 location: "Parma, Italy"

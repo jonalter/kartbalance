@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for NOLA Motorsports Park | Balance Calculator & Tips"
+title: "Kart Weight Setup for NOLA Motorsports Park"
 description: "Optimize your kart weight distribution for NOLA Motorsports Park in Avondale, LA. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner "
 name: "NOLA Motorsports Park"
 location: "Avondale, LA"

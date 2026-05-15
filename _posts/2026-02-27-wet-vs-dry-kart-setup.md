@@ -103,4 +103,63 @@ Here is the reality most karters miss: rain rewards preparation and punishes com
 
 Weight distribution adjustments for rain cost nothing and take minutes to implement. Know your dry baseline, know your wet targets, and have a plan for the transition. That preparation alone can gain you positions when the skies open.
 
+## Frequently Asked Questions
+
+### How should I change my kart setup for rain?
+
+Shift weight 1-2 points forward of your dry baseline (43% front becomes 44-45% front), raise the seat one or two spacer positions to lift the CG, narrow the rear track 10-15mm per side, and switch to a softer rear axle if your chassis allows it. Lower tire pressures slightly and keep left/right balance as close to 50/50 as possible.
+
+### Should I use more front weight in wet conditions?
+
+Yes. Increasing front weight by 1-2 points helps the front tires bite on a slippery surface and improves turn-in response without requiring the aggressive inside-rear lift that dry setups depend on. Slide the seat forward 10-20mm or add a small amount of ballast near the front of the chassis.
+
+### Why does raising the seat help in the rain?
+
+A higher center of gravity increases load transfer during cornering, which helps lift the inside rear wheel with less lateral force. In the wet, total grip is lower, so generating that lift mechanically (through CG) instead of through cornering load makes the kart easier to rotate.
+
+### How much should I narrow the rear track for wet racing?
+
+Most experienced wet-weather racers narrow the rear track 10-15mm per side by removing hub spacers. The narrower track reduces rear mechanical grip, helping the inside rear lift on a low-grip surface. This is the easiest wet adjustment to reverse if conditions change mid-day.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How should I change my kart setup for rain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shift weight 1-2 points forward of your dry baseline (43% front becomes 44-45% front), raise the seat one or two spacer positions to lift the CG, narrow the rear track 10-15mm per side, and switch to a softer rear axle if your chassis allows it. Lower tire pressures slightly and keep left/right balance as close to 50/50 as possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use more front weight in wet conditions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Increasing front weight by 1-2 points helps the front tires bite on a slippery surface and improves turn-in response without requiring the aggressive inside-rear lift that dry setups depend on. Slide the seat forward 10-20mm or add a small amount of ballast near the front of the chassis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does raising the seat help in the rain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A higher center of gravity increases load transfer during cornering, which helps lift the inside rear wheel with less lateral force. In the wet, total grip is lower, so generating that lift mechanically (through CG) instead of through cornering load makes the kart easier to rotate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should I narrow the rear track for wet racing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most experienced wet-weather racers narrow the rear track 10-15mm per side by removing hub spacers. The narrower track reduces rear mechanical grip, helping the inside rear lift on a low-grip surface. This is the easiest wet adjustment to reverse if conditions change mid-day."
+      }
+    }
+  ]
+}
+</script>
+
 {% include app-cta.html %}

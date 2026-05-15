@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Utah Motorsports Campus Kart Track | Balance Calculator & Tips"
+title: "Kart Weight Setup for Utah Motorsports Campus Kart Track"
 description: "Optimize your kart weight distribution for Utah Motorsports Campus Kart Track in Grantsville, UT. Setup tips for this outdoor asphalt track."
 name: "Utah Motorsports Campus Kart Track"
 location: "Grantsville, UT"

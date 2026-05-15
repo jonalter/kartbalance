@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Adria Karting Raceway | Balance Calculator & Tips"
+title: "Kart Weight Setup for Adria Karting Raceway"
 description: "Optimize your kart weight distribution for Adria Karting Raceway in Adria, Italy. Setup tips for this outdoor asphalt track. Use KartBalance for precise corner "
 name: "Adria Karting Raceway"
 location: "Adria, Italy"

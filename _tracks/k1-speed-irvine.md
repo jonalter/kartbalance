@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for K1 Speed Irvine | Balance Calculator & Tips"
+title: "Kart Weight Setup for K1 Speed Irvine"
 description: "Optimize your kart weight distribution for K1 Speed Irvine in Irvine, CA. Setup tips for this indoor concrete track. Use KartBalance for precise corner weights."
 name: "K1 Speed Irvine"
 location: "Irvine, CA"

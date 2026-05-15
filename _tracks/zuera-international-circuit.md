@@ -1,6 +1,6 @@
 ---
 layout: "track"
-title: "Kart Weight Setup for Zuera International Circuit | Balance Calculator & Tips"
+title: "Kart Weight Setup for Zuera International Circuit"
 description: "Optimize your kart weight distribution for Zuera International Circuit in Zuera, Spain. Setup tips for this outdoor asphalt track. Use KartBalance for precise c"
 name: "Zuera International Circuit"
 location: "Zuera, Spain"
