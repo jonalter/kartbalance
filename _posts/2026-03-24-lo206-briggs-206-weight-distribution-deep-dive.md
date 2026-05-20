@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "LO206 Weight Distribution: 43/57 Split, Ballast & Corner Weights"
-description: "Briggs LO206 setup: target 43% front, where to position ballast, and how to dial corner weights for tight or flowing tracks. Practical settings for senior and junior weights."
+description: "43% front / 57% rear is the LO206 starting point. The sealed engine makes weight distribution your only real setup lever — here's how to fine-tune by track and where to position ballast."
 date: 2026-03-24
 categories: [setup]
 tags: [lo206, briggs-206, weight-distribution, ballast, sealed-engine, kart-setup]
 ---
+
+**Short answer:** Most competitive LO206 karts run **43% front / 57% rear** weight distribution as a starting point, with a working range of 42.5%–44% front depending on track layout. Because the engine is sealed and makes the same power for everyone, where you place mass on the chassis is the primary lever for finding lap time.
 
 The Briggs & Stratton LO206 is the most popular kart racing class in North America, and it is not particularly close. The sealed engine formula keeps costs low, eliminates engine tuning wars, and produces some of the closest racing you will find anywhere in motorsport. But that sealed engine also means something important for setup: you cannot tune your way to speed under the valve cover. The engine is what it is. Every LO206 on the grid makes effectively the same power.
 

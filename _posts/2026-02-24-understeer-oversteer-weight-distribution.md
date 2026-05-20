@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Fix Kart Understeer and Oversteer with Weight Distribution"
-description: "Diagnose kart understeer and oversteer at the track and fix them by shifting weight, moving the seat, and adjusting ballast. Step-by-step changes with the why behind each one."
+title: "Why Your Kart Understeers or Oversteers (and How to Fix It With Weight)"
+description: "Kart pushes wide or snaps loose on exit? Diagnose understeer vs oversteer at the track and fix each with targeted seat, ballast, and corner-weight changes."
 date: 2026-02-24
 categories: [setup]
 tags: [understeer, oversteer, weight-distribution, chassis-balance, handling]
