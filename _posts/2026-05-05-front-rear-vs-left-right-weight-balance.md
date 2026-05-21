@@ -25,7 +25,7 @@ The standard starting point for most sprint kart classes is [43% front / 57% rea
 
 **Mid-corner rotation.** This is where front-rear balance gets subtle. A kart with no suspension relies on inside-rear-wheel lift to rotate through corners. The front-rear split directly affects how easily that inside rear tire unloads. More front weight means more aggressive lift, more rotation, and potentially more oversteer. More rear weight keeps the inside rear planted longer, reducing rotation and producing understeer.
 
-If you want to understand this mechanism in detail, the [guide to understeer and oversteer in karting](/blog/2026/02/understeer-oversteer-weight-distribution/) walks through the physics of how weight placement creates each handling condition.
+If you want to understand this mechanism in detail, the [guide to understeer and oversteer in karting](/blog/2026/02/understeer-oversteer-weight-distribution/) walks through the physics of how weight placement creates each handling condition. For step-by-step fixes, see the dedicated guides on [fixing kart understeer](/blog/2026/05/fix-kart-understeer-weight-distribution/) and [fixing kart oversteer](/blog/2026/05/fix-kart-oversteer-weight-distribution/).
 
 ### When to Adjust Front-Rear Balance
 

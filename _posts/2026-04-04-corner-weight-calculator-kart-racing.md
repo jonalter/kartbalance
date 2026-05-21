@@ -344,7 +344,7 @@ Knowing the numbers is only half the job. Understanding what they tell you about
 
 The front/rear split determines how the kart transitions into and out of corners. For most sprint kart configurations, the target is approximately [43% front and 57% rear](/blog/2026/03/43-57-weight-distribution-explained/). This ratio gives the front axle enough load to initiate inside-rear lift -- the mechanism that allows a solid-axle kart to turn -- while keeping the rear loaded enough to put power down on exit.
 
-When the front percentage is **too high** (above 45%), the inside rear lifts too aggressively. The kart rotates quickly at turn-in but snaps loose on exit when the rear tires cannot handle the combined cornering and drive forces. This is the classic [oversteer pattern](/blog/2026/02/understeer-oversteer-weight-distribution/) that feels fast on entry but costs time on exit.
+When the front percentage is **too high** (above 45%), the inside rear lifts too aggressively. The kart rotates quickly at turn-in but snaps loose on exit when the rear tires cannot handle the combined cornering and drive forces. This is the classic [oversteer pattern](/blog/2026/05/fix-kart-oversteer-weight-distribution/) that feels fast on entry but costs time on exit.
 
 When the front percentage is **too low** (below 41%), the kart does not want to rotate. The inside rear stays planted, the solid axle fights the turn, and the kart pushes wide. You end up sawing at the wheel and scrubbing speed through every corner.
 
