@@ -41,6 +41,8 @@ Chassis manufacturers design their frames with a specific weight distribution wi
 
 When you sit in a well-designed kart with the seat in the factory-recommended position, you will often find that the front/rear split lands naturally around 42-44% front. The chassis was engineered for this. Moving too far outside the design window means you are asking the frame to flex in ways it was not optimized for.
 
+Sealed-engine classes lean on this hardest. With the engine spec-locked, weight distribution is nearly the only performance lever left -- which is why the [LO206 leans entirely on the 43/57 starting point](/blog/2026/03/lo206-briggs-206-weight-distribution-deep-dive/).
+
 This does not mean 43/57 is a universal constant. It means the chassis works best within its designed operating range, and most modern sprint kart chassis are designed around that number.
 
 ## When to Deviate From 43/57

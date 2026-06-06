@@ -24,7 +24,7 @@ Together, these two ratios define your kart's static balance. Because a kart has
 
 Cars with suspension systems can mask poor weight distribution through spring rates, damper settings, and anti-roll bars. Karts have none of that. The chassis itself is the suspension -- it flexes and loads based entirely on where weight sits. That makes weight distribution both more important and more directly felt in a kart than in almost any other form of motorsport.
 
-Here is what happens when your balance is off:
+Here is what happens when your balance is off. The two failure modes -- [understeer and oversteer](/blog/2026/02/understeer-oversteer-weight-distribution/) -- show up like this:
 
 - **Too much front weight** causes the rear inside tire to lift too aggressively, reducing rear grip mid-corner and creating snap oversteer on exit.
 - **Too much rear weight** keeps the inside rear planted when it should be lifting, which prevents the kart from rotating and produces chronic understeer.

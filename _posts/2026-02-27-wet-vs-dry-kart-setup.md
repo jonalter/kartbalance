@@ -45,7 +45,7 @@ Weight distribution is your first move, but the chassis configuration also needs
 
 ### Narrow the Rear Track
 
-Bringing the rear wheels closer together by removing hub spacers is the most common wet-weather chassis change. A narrower rear track reduces the mechanical grip at the rear axle, making it easier for the inside rear to lift and the kart to rotate. On a slippery surface, this counters the tendency toward understeer.
+Bringing the rear wheels closer together by removing hub spacers is the most common wet-weather chassis change. A narrower rear track reduces the mechanical grip at the rear axle, making it easier for the inside rear to lift and the kart to rotate. On a slippery surface, this counters the tendency toward [understeer](/blog/2026/02/understeer-oversteer-weight-distribution/).
 
 Many experienced racers run their rear track 10-15mm narrower per side in the wet.
 

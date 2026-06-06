@@ -25,7 +25,7 @@ Tire pressure is the fastest and cheapest setup change you can make, which is ex
 
 Cold morning practice on a green track demands different pressures than a hot afternoon final on rubbered-in asphalt. Harder compound tires need higher pressures to generate heat. Softer compounds overheat easily and need to start lower. Track temperature, humidity, and even cloud cover all factor in.
 
-The bigger issue is that tire pressure directly affects how the chassis loads. Higher pressure reduces the contact patch and makes that end of the kart slide earlier. Lower pressure increases grip at that corner. If you are fighting understeer and your front pressures are already high, you are working against yourself.
+The bigger issue is that tire pressure directly affects how the chassis loads. Higher pressure reduces the contact patch and makes that end of the kart slide earlier. Lower pressure increases grip at that corner. If you are fighting [understeer](/blog/2026/02/understeer-oversteer-weight-distribution/) and your front pressures are already high, you are working against yourself.
 
 **The fix:** Buy a quality digital tire pressure gauge and use it constantly. Check pressures before every session. Record your starting pressures and post-session hot pressures. Over time, build a log of what works at different tracks and temperatures. Adjust in half-PSI increments and note what changes.
 

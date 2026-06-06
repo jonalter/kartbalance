@@ -21,7 +21,7 @@ Young drivers typically move through a progression of classes as they grow, gain
 
 **Mini Max / Rotax Mini Max (ages 10-13)** introduces more power with a restricted Rotax engine at 265 lbs minimum. The jump in speed is significant, and the karts demand more precise setup to extract performance.
 
-**Junior classes (ages 12-15)** -- whether Rotax Junior, X30 Junior, or 206 Junior -- bring minimum weights of 290-320 lbs and substantially more power. By this point, drivers need a setup approach similar to senior classes, just with lighter total weights and shorter drivers in the seat.
+**Junior classes (ages 12-15)** -- whether Rotax Junior, X30 Junior, or [206 Junior](/blog/2026/03/lo206-briggs-206-weight-distribution-deep-dive/) -- bring minimum weights of 290-320 lbs and substantially more power. By this point, drivers need a setup approach similar to senior classes, just with lighter total weights and shorter drivers in the seat.
 
 Each transition brings new challenges. A setup that worked in [Kid Kart](/kart-class/kid-kart/) will not translate directly to Cadet, and what works in Cadet will need rethinking for Junior. The one constant is that weight distribution remains the foundation.
 
@@ -89,7 +89,7 @@ A driver who grew two inches over the winter has shifted their center of mass. T
 
 Here is where many parents and coaches struggle. You have scaled the kart, placed the ballast carefully, positioned the seat, and sent the driver out. They come in and say "it felt weird." That does not give you much to work with.
 
-Young drivers need to be taught a simple vocabulary for handling feedback. You do not need technical jargon -- you need clear descriptions they can understand and use consistently.
+Young drivers need to be taught a simple vocabulary for handling feedback. You do not need technical jargon -- you need clear descriptions they can understand and use consistently. It helps to understand the mechanism yourself so you can act on what they report -- [how weight distribution causes understeer and oversteer](/blog/2026/02/understeer-oversteer-weight-distribution/) breaks it down.
 
 **Understeer (push):** "The front of the kart does not want to turn. You have to turn the wheel more than you think you should." Ask: "Did the front feel like it was sliding, or did the kart just not want to point where you wanted it to go?"
 

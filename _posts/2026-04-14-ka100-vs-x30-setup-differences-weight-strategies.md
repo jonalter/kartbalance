@@ -71,7 +71,7 @@ On the KA100, with less power to manage, drivers can sometimes get away with sli
 
 ## Starting Point Setups
 
-Here are baseline setup targets for each class. These are starting points for a typical sprint track with a mix of slow and medium-speed corners. Adjust from here based on handling feedback and track characteristics.
+Here are baseline setup targets for each class. These are starting points for a typical sprint track with a mix of slow and medium-speed corners. Adjust from here based on handling feedback and track characteristics. Running a sealed four-stroke instead? The [LO206 weight distribution deep dive](/blog/2026/03/lo206-briggs-206-weight-distribution-deep-dive/) applies the same approach to the Briggs 206 package.
 
 ### KA100 Starting Setup
 

@@ -29,7 +29,7 @@ Here are the ranges most competitive shifter teams work within:
 - **Left/Right:** 49.5-50.5%. The gearbox does not create significant lateral asymmetry, but the radiator, battery, and exhaust routing do. Aim for 50/50 and correct with lateral ballast if needed.
 - **Cross Weight:** 49.5-50.5%. Diagonal balance matters just as much in a shifter as in any other class, perhaps more given the higher speeds and loads involved.
 
-The key difference from other classes is not the target -- it is the effort required to reach it. In a KA100 or LO206, many drivers can get close to 43/57 with modest seat positioning and a few pieces of lead. In a shifter, the gearbox has already pushed the balance so far rearward that you may need significant front ballast or aggressive seat positioning to pull the numbers into range.
+The key difference from other classes is not the target -- it is the effort required to reach it. In a KA100 or [LO206](/blog/2026/03/lo206-briggs-206-weight-distribution-deep-dive/), many drivers can get close to 43/57 with modest seat positioning and a few pieces of lead. In a shifter, the gearbox has already pushed the balance so far rearward that you may need significant front ballast or aggressive seat positioning to pull the numbers into range.
 
 ## 385 Pounds: Where the Extra Weight Goes
 
