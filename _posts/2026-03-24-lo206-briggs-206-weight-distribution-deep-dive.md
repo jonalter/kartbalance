@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "LO206 Weight Distribution: 43/57 Split, Ballast & Corner Weights"
-description: "43% front / 57% rear is the LO206 starting point. The sealed engine makes weight distribution your only real setup lever — here's how to fine-tune by track and where to position ballast."
+title: "LO206 Weight Distribution: 43/57 Split & Ballast Guide"
+description: "The LO206's sealed engine makes weight distribution your only real speed lever. Get the 43/57 baseline, the working range by track, and exactly where to place ballast."
 date: 2026-03-24
 categories: [setup]
 tags: [lo206, briggs-206, weight-distribution, ballast, sealed-engine, kart-setup]
